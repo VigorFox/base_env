@@ -13,7 +13,8 @@ def IsPatched():
   # script (because we know it's patched). Another case could be added here to
   # query the active VS installation and actually check the contents of xtree.
   # http://crbug.com/346399.
-  return int(os.environ.get('DEPOT_TOOLS_WIN_TOOLCHAIN', 1)) == 1
+  # return int(os.environ.get('DEPOT_TOOLS_WIN_TOOLCHAIN', 1)) == 1
+  return False
 
 
 def DoMain(_):

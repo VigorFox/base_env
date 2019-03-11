@@ -28,8 +28,9 @@ def SetEnvironmentAndGetRuntimeDllDirs():
   the output directory after gyp generation.
   """
   vs_runtime_dll_dirs = None
-  depot_tools_win_toolchain = \
-      bool(int(os.environ.get('DEPOT_TOOLS_WIN_TOOLCHAIN', '1')))
+  # depot_tools_win_toolchain = \
+  #     bool(int(os.environ.get('DEPOT_TOOLS_WIN_TOOLCHAIN', '1')))
+  depot_tools_win_toolchain = False
   if sys.platform in ('win32', 'cygwin') and depot_tools_win_toolchain:
     if not os.path.exists(json_data_file):
       Update()
@@ -78,8 +79,9 @@ def Update():
   this revision. The update outputs a .json of the various configuration
   information required to pass to gyp which we use in |GetToolchainDir()|.
   """
-  depot_tools_win_toolchain = \
-      bool(int(os.environ.get('DEPOT_TOOLS_WIN_TOOLCHAIN', '1')))
+  # depot_tools_win_toolchain = \
+  #     bool(int(os.environ.get('DEPOT_TOOLS_WIN_TOOLCHAIN', '1')))
+  depot_tools_win_toolchain = False
   if sys.platform in ('win32', 'cygwin') and depot_tools_win_toolchain:
     depot_tools_path = FindDepotTools()
     # Necessary so that get_toolchain_if_necessary.py will put the VS toolkit

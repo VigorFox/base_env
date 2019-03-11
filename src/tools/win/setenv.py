@@ -15,7 +15,8 @@ sys.path.append(build_path)
 
 import vs_toolchain
 
-if bool(int(os.environ.get('DEPOT_TOOLS_WIN_TOOLCHAIN', '1'))):
+# if bool(int(os.environ.get('DEPOT_TOOLS_WIN_TOOLCHAIN', '1'))):
+if False:
   win_sdk_dir = vs_toolchain.SetEnvironmentAndGetSDKDir()
   print os.path.normpath(os.path.join(win_sdk_dir, 'bin/SetEnv.cmd'))
 else:
