@@ -1,0 +1,16 @@
+Package: libbrlapi-dev
+Source: brltty
+Version: 4.3-1ubuntu5
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 396
+Depends: libbrlapi0.5 (= 4.3-1ubuntu5)
+Conflicts: libbrlapi1-dev (<< 3.8)
+Section: libdevel
+Priority: extra
+Homepage: http://mielke.cc/brltty/
+Description: Library for communication with BRLTTY - static libs and headers
+ This package contains the static library libbrlapi.a and header files
+ in /usr/include/brltty/ necessary to compile programs for BrlAPI, a
+ client-server based mechanism to remotely access a braille display.
+Original-Maintainer: Debian Accessibility Team <debian-accessibility@lists.debian.org>

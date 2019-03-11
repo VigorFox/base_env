@@ -1,0 +1,22 @@
+Package: libx11-6
+Source: libx11
+Version: 2:1.4.99.1-0ubuntu2.3
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 1480
+Pre-Depends: multiarch-support
+Depends: libc6 (>= 2.15), libxcb1 (>= 1.2), libx11-data
+Section: libs
+Priority: optional
+Multi-Arch: same
+Description: X11 client-side library
+ This package provides a client interface to the X Window System, otherwise
+ known as 'Xlib'.  It provides a complete API for the basic functions of the
+ window system.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libX11
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>

@@ -1,0 +1,22 @@
+Package: libxfixes3
+Source: libxfixes
+Version: 1:5.0-4+deb7u1
+Architecture: amd64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 68
+Pre-Depends: multiarch-support
+Depends: libc6 (>= 2.2.5), libx11-6 (>= 2:1.4.99.1)
+Section: libs
+Priority: optional
+Multi-Arch: same
+Description: X11 miscellaneous 'fixes' extension library
+ libXfixes provides an X Window System client interface to the 'XFIXES'
+ extension to the X protocol.
+ .
+ It provides support for Region types, and some cursor functions.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libXfixes

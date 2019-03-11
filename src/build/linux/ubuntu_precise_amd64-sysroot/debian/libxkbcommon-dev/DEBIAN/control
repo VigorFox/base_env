@@ -1,0 +1,19 @@
+Package: libxkbcommon-dev
+Source: libxkbcommon
+Version: 0.1.0~1-0ubuntu1
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 593
+Depends: libxkbcommon0 (= 0.1.0~1-0ubuntu1)
+Section: libdevel
+Priority: extra
+Description: library interface to the XKB compiler - development files
+ libxkbcommon aims at replacing xkbcomp, the XKB compiler.
+ .
+ UNSUPPORTED.  This is an experimental library, and its ABI/API is likely to change
+ on a regular fashion before it stabilizes, depending on XServer's and
+ Wayland's needs in particular.
+ .
+ This package contains the development headers for the library found in
+ libxkbcommon0. Non-developers likely have little use for this package.
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>

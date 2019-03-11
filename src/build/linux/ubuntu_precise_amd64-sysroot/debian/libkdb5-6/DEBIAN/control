@@ -1,0 +1,24 @@
+Package: libkdb5-6
+Source: krb5
+Version: 1.10+dfsg~beta1-2ubuntu0.7
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 145
+Pre-Depends: multiarch-support
+Depends: libc6 (>= 2.14), libcomerr2 (>= 1.01), libgssrpc4 (>= 1.7dfsg~alpha1), libk5crypto3 (>= 1.7+dfsg), libkrb5-3 (>= 1.7dfsg), libkrb5support0 (>= 1.7dfsg~beta2)
+Suggests: krb5-doc, krb5-user
+Breaks: libkadm5srv-mit8 (<< 1.10+dfsg~)
+Section: libs
+Priority: standard
+Multi-Arch: same
+Homepage: http://web.mit.edu/kerberos/
+Description: MIT Kerberos runtime libraries - Kerberos database
+ Kerberos is a system for authenticating users and services on a network.
+ Kerberos is a trusted third-party service.  That means that there is a
+ third party (the Kerberos server) that is trusted by all the entities on
+ the network (users and services, usually called "principals").
+ .
+ This is the MIT reference implementation of Kerberos V5.
+ .
+ This package contains the internal Kerberos database libraries.
+Original-Maintainer: Sam Hartman <hartmans@debian.org>

@@ -1,0 +1,16 @@
+Package: libgpg-error0
+Source: libgpg-error
+Version: 1.10-3.1
+Architecture: amd64
+Maintainer: Jose Carlos Garcia Sogo <jsogo@debian.org>
+Installed-Size: 365
+Pre-Depends: multiarch-support
+Depends: libc6 (>= 2.2.5)
+Section: libs
+Priority: standard
+Multi-Arch: same
+Homepage: http://www.gnupg.org/related_software/libgpg-error/
+Description: library for common error values and messages in GnuPG components
+ Library that defines common error values for all GnuPG
+ components.  Among these are GPG, GPGSM, GPGME, GPG-Agent, libgcrypt,
+ pinentry, SmartCard Daemon and possibly more in the future.

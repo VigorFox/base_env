@@ -1,0 +1,6 @@
+1a0334686deb8ae0293225e43aab8868  usr/include/libspeechd.h
+602fa1e148daa4edb846da3cc2fcd240  usr/lib/libspeechd.a
+ebb47a0bcca34b7bc7462b90949b4fbc  usr/lib/speech-dispatcher/libsdaudio.a
+cddb4e8f51e0b8533e8a6a1fe4ac6d33  usr/share/doc/libspeechd-dev/changelog.Debian.gz
+2a813663642cbb6d71b8035c59c54973  usr/share/doc/libspeechd-dev/changelog.gz
+3ff896c7185302ae46054373620a99aa  usr/share/doc/libspeechd-dev/copyright

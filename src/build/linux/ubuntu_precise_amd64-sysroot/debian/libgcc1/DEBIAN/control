@@ -1,0 +1,18 @@
+Package: libgcc1
+Source: gcc-4.6 (4.6.3-1ubuntu5)
+Version: 1:4.6.3-1ubuntu5
+Architecture: amd64
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 119
+Pre-Depends: multiarch-support
+Depends: gcc-4.6-base (= 4.6.3-1ubuntu5), libc6 (>= 2.14)
+Breaks: gcc-4.1, gcc-4.3 (<< 4.3.6-1), gcc-4.4 (<< 4.4.6-4), gcc-4.5 (<< 4.5.3-2)
+Section: libs
+Priority: required
+Multi-Arch: same
+Homepage: http://gcc.gnu.org/
+Description: GCC support library
+ Shared version of the support library, a library of internal subroutines
+ that GCC uses to overcome shortcomings of particular machines, or
+ special needs for some languages.
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>

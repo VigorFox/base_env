@@ -1,0 +1,16 @@
+Package: libpcre3-dev
+Source: pcre3
+Version: 1:8.30-5
+Architecture: amd64
+Maintainer: Mark Baker <mark@mnb.org.uk>
+Installed-Size: 682
+Depends: libc6-dev, libpcre3 (= 1:8.30-5), libpcrecpp0 (= 1:8.30-5)
+Conflicts: libpcre1-dev, libpcre2-dev
+Section: libdevel
+Priority: optional
+Description: Perl 5 Compatible Regular Expression Library - development files
+ This is a library of functions to support regular expressions whose syntax
+ and semantics are as close as possible to those of the Perl 5 language.
+ .
+ This package contains the development files, including headers, static
+ libraries, and documentation.

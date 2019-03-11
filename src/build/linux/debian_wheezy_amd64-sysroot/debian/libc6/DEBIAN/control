@@ -1,0 +1,20 @@
+Package: libc6
+Source: eglibc
+Version: 2.13-38+deb7u10
+Architecture: amd64
+Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Installed-Size: 9465
+Depends: libc-bin (= 2.13-38+deb7u10), libgcc1
+Suggests: glibc-doc, debconf | debconf-2.0, locales
+Conflicts: prelink (<= 0.0.20090311-1), tzdata (<< 2007k-1), tzdata-etch
+Breaks: locales (<< 2.13), locales-all (<< 2.13), lsb-core (<= 3.2-27), nscd (<< 2.13)
+Replaces: libc6-amd64
+Provides: glibc-2.13-1
+Section: libs
+Priority: required
+Multi-Arch: same
+Homepage: http://www.eglibc.org
+Description: Embedded GNU C Library: Shared libraries
+ Contains the standard libraries that are used by nearly all programs on
+ the system. This package includes shared versions of the standard C library
+ and the standard math library, as well as many others.

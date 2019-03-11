@@ -1,0 +1,19 @@
+Package: libatk1.0-0
+Source: atk1.0
+Version: 2.4.0-2
+Architecture: amd64
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 226
+Pre-Depends: multiarch-support
+Depends: libc6 (>= 2.2.5), libglib2.0-0 (>= 2.31.2), libatk1.0-data (= 2.4.0-2)
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: http://www.gtk.org/
+Description: ATK accessibility toolkit
+ ATK is a toolkit providing accessibility interfaces for applications or
+ other toolkits. By implementing these interfaces, those other toolkits or
+ applications can be used with tools such as screen readers, magnifiers, and
+ other alternative input devices.
+ .
+ This is the runtime part of ATK, needed to run applications built with it.

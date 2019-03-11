@@ -1,0 +1,22 @@
+Package: libgcrypt11-dev
+Source: libgcrypt11
+Version: 1.5.0-5+deb7u4
+Architecture: amd64
+Maintainer: Debian GnuTLS Maintainers <pkg-gnutls-maint@lists.alioth.debian.org>
+Installed-Size: 1131
+Depends: libgcrypt11 (= 1.5.0-5+deb7u4), libc6-dev | libc-dev, libgpg-error-dev
+Suggests: libgcrypt11-doc
+Conflicts: libgcrypt-dev
+Provides: libgcrypt-dev
+Section: libdevel
+Priority: optional
+Homepage: http://directory.fsf.org/project/libgcrypt/
+Description: LGPL Crypto library - development files
+ libgcrypt contains cryptographic functions.  Many important free
+ ciphers, hash algorithms and public key signing algorithms have been
+ implemented:
+ Arcfour, Blowfish, CAST5, DES, AES, Twofish, Serpent, rfc2268 (rc2), SEED,
+ Camellia, CRC, MD4, MD5, RIPE-MD160, SHA-1, SHA-256, SHA-512, Tiger,
+ Whirlpool, DSA, DSA2, ElGamal, RSA, ECC.
+ .
+ This package contains header files and libraries for static linking.

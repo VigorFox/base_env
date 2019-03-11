@@ -1,0 +1,25 @@
+Package: libnspr4
+Source: nspr
+Version: 4.12-0ubuntu0.12.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 369
+Pre-Depends: multiarch-support
+Depends: libc6 (>= 2.15)
+Conflicts: evolution-documentation-cs, evolution-documentation-de, evolution-documentation-el, evolution-documentation-en, evolution-documentation-es, evolution-documentation-fr, evolution-documentation-mk, evolution-documentation-oc, evolution-documentation-ru, evolution-documentation-sv, language-support-translations-cs, language-support-translations-de, language-support-translations-el, language-support-translations-en, language-support-translations-es, language-support-translations-fr, language-support-translations-mk, language-support-translations-oc, language-support-translations-ru, language-support-translations-sv, libnspr4-0d (<< 4.8.7)
+Breaks: evolution-plugins (<< 3.2.0-0ubuntu2)
+Replaces: libnspr4-0d (<< 4.8.7)
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: http://www.mozilla.org/projects/nspr/
+Description: NetScape Portable Runtime Library
+ This library provides platform independent non-GUI operating system
+ facilities including:
+  * threads,
+  * thread synchronisation,
+  * normal file I/O and network I/O,
+  * interval timing and calendar time,
+  * basic memory management (malloc and free),
+  * shared library linking.
+Original-Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>

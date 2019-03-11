@@ -1,0 +1,22 @@
+Package: libgconf2-4
+Source: gconf
+Version: 3.2.5-0ubuntu2
+Architecture: amd64
+Maintainer: Ubuntu Desktop Team <ubuntu-desktop@lists.ubuntu.com>
+Installed-Size: 372
+Depends: libgconf-2-4 (= 3.2.5-0ubuntu2), gconf-service
+Breaks: gconf2 (<< 3.2.3-2)
+Section: oldlibs
+Priority: optional
+Multi-Arch: same
+Homepage: http://projects.gnome.org/gconf/
+Description: GNOME configuration database system (dummy package)
+ GConf is a configuration database system for storing application
+ preferences. It supports default or mandatory settings set by the
+ administrator, and changes to the database are instantly applied to all
+ running applications. It is written for the GNOME desktop but doesn't
+ require it.
+ .
+ This package is here to ensure smooth upgrades. It can be removed when
+ you see fit.
+Original-Maintainer: Josselin Mouette <joss@debian.org>

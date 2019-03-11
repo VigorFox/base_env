@@ -1,0 +1,15 @@
+Package: libbrlapi0.5
+Source: brltty
+Version: 4.4-10+deb7u1
+Architecture: amd64
+Maintainer: Debian Accessibility Team <debian-accessibility@lists.debian.org>
+Installed-Size: 141
+Pre-Depends: multiarch-support
+Depends: libc6 (>= 2.4)
+Section: libs
+Priority: extra
+Multi-Arch: same
+Homepage: http://mielke.cc/brltty/
+Description: braille display access via BRLTTY - shared library
+ This package contains the shared library necessary to run programs which
+ need to communicate with a braille display.

@@ -1,0 +1,16 @@
+Package: libattr1
+Source: attr
+Version: 1:2.4.46-8
+Architecture: amd64
+Maintainer: Anibal Monsalve Salazar <anibal@debian.org>
+Installed-Size: 61
+Pre-Depends: multiarch-support
+Depends: libc6 (>= 2.4)
+Conflicts: attr (<< 2.0.0)
+Section: libs
+Priority: required
+Multi-Arch: same
+Homepage: http://savannah.nongnu.org/projects/attr/
+Description: Extended attribute shared library
+ Contains the runtime environment required by programs that make use
+ of extended attributes.

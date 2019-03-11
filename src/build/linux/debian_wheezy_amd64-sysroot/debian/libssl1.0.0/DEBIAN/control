@@ -1,0 +1,16 @@
+Package: libssl1.0.0
+Source: openssl
+Version: 1.0.1e-2+deb7u20
+Architecture: amd64
+Maintainer: Debian OpenSSL Team <pkg-openssl-devel@lists.alioth.debian.org>
+Installed-Size: 3046
+Pre-Depends: multiarch-support
+Depends: libc6 (>= 2.7), zlib1g (>= 1:1.1.4), debconf (>= 0.5) | debconf-2.0
+Section: libs
+Priority: important
+Multi-Arch: same
+Description: SSL shared libraries
+ libssl and libcrypto shared libraries needed by programs like
+ apache-ssl, telnet-ssl and openssh.
+ .
+ It is part of the OpenSSL implementation of SSL.

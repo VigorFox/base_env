@@ -1,0 +1,27 @@
+Package: libxcb-glx0
+Source: libxcb
+Version: 1.8.1-1ubuntu0.2
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 149
+Pre-Depends: multiarch-support
+Depends: libc6 (>= 2.2.5), libxcb1
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: http://xcb.freedesktop.org
+Description: X C Binding, glx extension
+ This package contains the library files needed to run software using
+ libxcb-glx, the glx extension for the X C Binding.
+ .
+ The XCB library provides an interface to the X Window System protocol,
+ designed to replace the Xlib interface.  XCB provides several advantages over
+ Xlib:
+ .
+  * Size: small library and lower memory footprint
+  * Latency hiding: batch several requests and wait for the replies later
+  * Direct protocol access: one-to-one mapping between interface and protocol
+  * Thread support: access XCB from multiple threads, with no explicit locking
+  * Easy creation of new extensions: automatically generates interface from
+    machine-parsable protocol descriptions
+Original-Maintainer: XCB Developers <xcb@lists.freedesktop.org>

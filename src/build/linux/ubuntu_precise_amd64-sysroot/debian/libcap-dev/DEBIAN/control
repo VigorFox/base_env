@@ -1,0 +1,19 @@
+Package: libcap-dev
+Source: libcap2
+Version: 1:2.22-1ubuntu3
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 93
+Depends: libcap2 (= 1:2.22-1ubuntu3)
+Suggests: manpages-dev
+Conflicts: libcap2-dev
+Replaces: libcap2-dev
+Provides: libcap2-dev
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: http://sites.google.com/site/fullycapable/
+Description: development libraries and header files for libcap2
+ Contains the necessary support for building applications that use
+ capabilities.
+Original-Maintainer: Torsten Werner <twerner@debian.org>

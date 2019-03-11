@@ -1,0 +1,17 @@
+Package: libglapi-mesa
+Source: mesa
+Version: 8.0.4-0ubuntu0.7
+Architecture: amd64
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Installed-Size: 228
+Pre-Depends: multiarch-support
+Depends: libc6 (>= 2.4)
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: http://mesa3d.sourceforge.net/
+Description: free implementation of the GL API -- shared library
+ The Mesa GL API module is responsible for dispatching all the gl*
+ functions. It is intended to be mainly used by both the libgles1-mesa
+ and libgles2-mesa packages.
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>

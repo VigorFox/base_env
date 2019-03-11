@@ -1,0 +1,18 @@
+Package: libssl1.0.0
+Source: openssl
+Version: 1.0.1-4ubuntu5.38
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 2934
+Pre-Depends: multiarch-support
+Depends: libc6 (>= 2.14), zlib1g (>= 1:1.1.4), debconf (>= 0.5) | debconf-2.0
+Breaks: openssh-client (<< 1:5.9p1-4), openssh-server (<< 1:5.9p1-4)
+Section: libs
+Priority: important
+Multi-Arch: same
+Description: SSL shared libraries
+ libssl and libcrypto shared libraries needed by programs like
+ apache-ssl, telnet-ssl and openssh.
+ .
+ It is part of the OpenSSL implementation of SSL.
+Original-Maintainer: Debian OpenSSL Team <pkg-openssl-devel@lists.alioth.debian.org>

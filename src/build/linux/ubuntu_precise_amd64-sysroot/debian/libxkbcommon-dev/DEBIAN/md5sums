@@ -1,0 +1,4 @@
+f24adcdc770a4ad6880ec4f4f114942f  usr/include/X11/extensions/XKBcommon.h
+1c5c346c142b9d06794dbbed23f1bd81  usr/lib/libxkbcommon.a
+dd5990771e725e0d16c97020f681d70b  usr/lib/pkgconfig/xkbcommon.pc
+2fe13ccdf19f36600ccc66b57a86cd61  usr/share/doc/libxkbcommon-dev/copyright

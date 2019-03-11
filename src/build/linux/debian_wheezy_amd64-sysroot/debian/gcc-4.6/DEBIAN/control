@@ -1,0 +1,14 @@
+Package: gcc-4.6
+Version: 4.6.3-14
+Architecture: amd64
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 15383
+Depends: gcc-4.6-base (= 4.6.3-14), cpp-4.6 (= 4.6.3-14), binutils (>= 2.21.1), libgcc1 (>= 1:4.6.3-14), libgomp1 (>= 4.6.3-14), libquadmath0 (>= 4.6.3-14), libc6 (>= 2.11), libgmp10, libmpc2, libmpfr4 (>= 3.1.0), zlib1g (>= 1:1.1.4)
+Recommends: libc6-dev (>= 2.13-5)
+Suggests: gcc-4.6-multilib, libmudflap0-4.6-dev (>= 4.6.3-14), gcc-4.6-doc (>= 4.6.3-1), gcc-4.6-locales (>= 4.6.3-1), libgcc1-dbg, libgomp1-dbg, libquadmath0-dbg, libmudflap0-dbg, binutils-gold (>= 2.21.1)
+Provides: c-compiler
+Section: devel
+Priority: optional
+Homepage: http://gcc.gnu.org/
+Description: GNU C compiler
+ This is the GNU C compiler, a fairly portable optimizing compiler for C.

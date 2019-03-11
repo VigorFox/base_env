@@ -1,0 +1,16 @@
+Package: libelf-dev
+Source: elfutils
+Version: 0.152-1+wheezy1
+Architecture: amd64
+Maintainer: Kurt Roeckx <kurt@roeckx.be>
+Installed-Size: 343
+Depends: libelf1 (= 0.152-1+wheezy1)
+Conflicts: libelfg0-dev
+Section: libdevel
+Priority: optional
+Homepage: https://fedorahosted.org/elfutils/
+Description: libelf1 development libraries and header files
+ libelf1 provides a shared library which allows reading and writing of ELF
+ files on a high level.
+ .
+ This package contains development libraries and header files for libelf1.

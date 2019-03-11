@@ -1,0 +1,22 @@
+Package: libcups2-dev
+Source: cups
+Version: 1.5.3-0ubuntu8.7
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 936
+Depends: libcups2 (= 1.5.3-0ubuntu8.7), libgnutls-dev, libkrb5-dev
+Provides: libcupsys2-dev
+Section: libdevel
+Priority: optional
+Homepage: http://www.cups.org
+Description: Common UNIX Printing System(tm) - Development files CUPS library
+ The Common UNIX Printing System (or CUPS(tm)) is a printing system and
+ general replacement for lpd and the like.  It supports the Internet
+ Printing Protocol (IPP), and has its own filtering driver model for
+ handling various document types.
+ .
+ This package provides the files necessary for developing CUPS-aware
+ applications and CUPS drivers, as well as examples how to communicate
+ with cups from different programming languages (Perl, Java, and
+ PHP).
+Original-Maintainer: Debian CUPS Maintainers <pkg-cups-devel@lists.alioth.debian.org>

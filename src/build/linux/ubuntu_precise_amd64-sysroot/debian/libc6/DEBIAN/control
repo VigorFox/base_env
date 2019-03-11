@@ -1,0 +1,21 @@
+Package: libc6
+Source: eglibc
+Version: 2.15-0ubuntu10.15
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 10407
+Depends: libc-bin (= 2.15-0ubuntu10.15), libgcc1, tzdata
+Suggests: glibc-doc, debconf | debconf-2.0, locales
+Conflicts: belocs-locales-bin, libc6-amd64, prelink (<< 0.0.20090925), tzdata (<< 2007k-1), tzdata-etch
+Breaks: nscd (<< 2.15)
+Replaces: belocs-locales-bin, libc6-amd64
+Provides: glibc-2.13-1
+Section: libs
+Priority: required
+Multi-Arch: same
+Homepage: http://www.eglibc.org
+Description: Embedded GNU C Library: Shared libraries
+ Contains the standard libraries that are used by nearly all programs on
+ the system. This package includes shared versions of the standard C library
+ and the standard math library, as well as many others.
+Original-Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>

@@ -1,0 +1,12 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=/usr/lib/x86_64-linux-gnu
+includedir=/usr/include
+
+Name: wayland-egl
+Description: Mesa wayland-egl library
+Requires.private: wayland-client libdrm
+Version: 8.0.4
+Libs: -L${libdir} -lwayland-egl
+Libs.private: 
+Cflags: -I${includedir} 

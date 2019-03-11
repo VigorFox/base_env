@@ -1,0 +1,18 @@
+Package: libegl1-mesa-dev
+Source: mesa
+Version: 8.0.5-4+deb7u2
+Architecture: amd64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 142
+Depends: libegl1-mesa (= 8.0.5-4+deb7u2), libegl1-mesa-drivers (= 8.0.5-4+deb7u2), libdrm-dev (>= 2.4.19), x11proto-dri2-dev (>= 2.1), x11proto-gl-dev (>= 1.4.11), libx11-dev, libxext-dev, libxxf86vm-dev, libxdamage-dev, libxfixes-dev, libxcb-glx0-dev, libx11-xcb-dev
+Section: libdevel
+Priority: optional
+Homepage: http://mesa3d.sourceforge.net/
+Description: free implementation of the EGL API -- development files
+ This package contains the development environment required for compiling
+ programs against EGL native platform graphics interface library.
+ EGL provides a platform-agnostic mechanism for creating rendering surfaces
+ for use with other graphics libraries, such as OpenGL|ES and OpenVG.
+ .
+ This package provides the development environment for compiling programs
+ against the EGL library.

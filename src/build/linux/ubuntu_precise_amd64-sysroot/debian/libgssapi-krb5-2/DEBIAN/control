@@ -1,0 +1,26 @@
+Package: libgssapi-krb5-2
+Source: krb5
+Version: 1.10+dfsg~beta1-2ubuntu0.7
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 337
+Pre-Depends: multiarch-support
+Depends: libc6 (>= 2.14), libcomerr2 (>= 1.34), libk5crypto3 (>= 1.8+dfsg), libkrb5-3 (= 1.10+dfsg~beta1-2ubuntu0.7), libkrb5support0 (>= 1.7dfsg~beta2)
+Suggests: krb5-doc, krb5-user
+Breaks: libkrb53 (<< 1.8)
+Replaces: libkrb53 (<< 1.6.dfsg.4~beta1-7)
+Section: libs
+Priority: standard
+Multi-Arch: same
+Homepage: http://web.mit.edu/kerberos/
+Description: MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
+ Kerberos is a system for authenticating users and services on a network.
+ Kerberos is a trusted third-party service.  That means that there is a
+ third party (the Kerberos server) that is trusted by all the entities on
+ the network (users and services, usually called "principals").
+ .
+ This is the MIT reference implementation of Kerberos V5.
+ .
+ This package contains the runtime library for the MIT Kerberos
+ implementation of GSS-API used by applications and Kerberos clients.
+Original-Maintainer: Sam Hartman <hartmans@debian.org>

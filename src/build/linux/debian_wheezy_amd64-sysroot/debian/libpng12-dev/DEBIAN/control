@@ -1,0 +1,19 @@
+Package: libpng12-dev
+Source: libpng
+Version: 1.2.49-1+deb7u2
+Architecture: amd64
+Maintainer: Anibal Monsalve Salazar <anibal@debian.org>
+Installed-Size: 655
+Depends: libpng12-0 (= 1.2.49-1+deb7u2), zlib1g-dev
+Conflicts: libpng-dev, libpng12-0-dev, libpng2 (<< 1.0.12-3), libpng2-dev
+Replaces: libpng12-0-dev, libpng3-dev (<= 1.2.5)
+Provides: libpng-dev, libpng12-0-dev, libpng3-dev
+Section: libdevel
+Priority: optional
+Homepage: http://libpng.org/pub/png/libpng.html
+Description: PNG library - development
+ libpng is a library implementing an interface for reading and writing
+ PNG (Portable Network Graphics) format files.
+ .
+ This package contains the header and development files needed to build
+ programs and packages using libpng.

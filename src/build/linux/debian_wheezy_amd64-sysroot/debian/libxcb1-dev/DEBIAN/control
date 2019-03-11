@@ -1,0 +1,28 @@
+Package: libxcb1-dev
+Source: libxcb
+Version: 1.8.1-2+deb7u1
+Architecture: amd64
+Maintainer: XCB Developers <xcb@lists.freedesktop.org>
+Installed-Size: 718
+Depends: libxcb1 (= 1.8.1-2+deb7u1), libpthread-stubs0-dev, libxau-dev (>= 1:1.0.0-1), libxdmcp-dev (>= 1:1.0.0-1)
+Suggests: libxcb-doc
+Conflicts: libxcb0-dev
+Replaces: libxcb0-dev
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: http://xcb.freedesktop.org
+Description: X C Binding, development files
+ This package contains the header and library files needed to build software
+ using libxcb, the X C Binding.
+ .
+ The XCB library provides an interface to the X Window System protocol,
+ designed to replace the Xlib interface.  XCB provides several advantages over
+ Xlib:
+ .
+  * Size: small library and lower memory footprint
+  * Latency hiding: batch several requests and wait for the replies later
+  * Direct protocol access: one-to-one mapping between interface and protocol
+  * Thread support: access XCB from multiple threads, with no explicit locking
+  * Easy creation of new extensions: automatically generates interface from
+    machine-parsable protocol descriptions

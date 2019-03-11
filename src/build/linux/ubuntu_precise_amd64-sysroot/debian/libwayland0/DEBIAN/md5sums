@@ -1,0 +1,5 @@
+2f4eefe4d3bcbb30ef814c2bdf918f65  usr/lib/x86_64-linux-gnu/libwayland-client.so.0.0.0
+4577045b7a0ebdc8a0ae5eba5844333b  usr/lib/x86_64-linux-gnu/libwayland-server.so.0.0.0
+ad3113c822bfd5063e9868e998e04c89  usr/share/doc/libwayland0/changelog.Debian.gz
+7065664d01d8fcbcafa9c662d0046f79  usr/share/doc/libwayland0/copyright
+237becf594742009d8bdcaab4d93854e  usr/share/lintian/overrides/libwayland0

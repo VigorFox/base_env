@@ -1,0 +1,20 @@
+Package: libfreetype6-dev
+Source: freetype
+Version: 2.4.8-1ubuntu2.3
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 3355
+Depends: libfreetype6 (= 2.4.8-1ubuntu2.3), libc6-dev | libc-dev, zlib1g-dev | libz-dev
+Section: libdevel
+Priority: optional
+Homepage: http://www.freetype.org
+Description: FreeType 2 font engine, development files
+ The FreeType project is a team of volunteers who develop free,
+ portable and high-quality software solutions for digital typography.
+ They specifically target embedded systems and focus on bringing small,
+ efficient and ubiquitous products.
+ .
+ This package contains all supplementary files (static library, headers
+ and documentation) you need to develop your own programs using the
+ FreeType 2 library.
+Original-Maintainer: Steve Langasek <vorlon@debian.org>

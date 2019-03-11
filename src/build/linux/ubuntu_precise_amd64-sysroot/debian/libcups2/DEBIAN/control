@@ -1,0 +1,25 @@
+Package: libcups2
+Source: cups
+Version: 1.5.3-0ubuntu8.7
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 474
+Pre-Depends: multiarch-support
+Depends: libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.14), libgnutls26 (>= 2.12.6.1-0), libgssapi-krb5-2 (>= 1.10+dfsg~), zlib1g (>= 1:1.1.4)
+Suggests: cups-common
+Conflicts: libcupsys2
+Breaks: cups (<< 1.5.0)
+Replaces: libcupsys2
+Provides: libcupsys2
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: http://www.cups.org
+Description: Common UNIX Printing System(tm) - Core library
+ The Common UNIX Printing System (or CUPS(tm)) is a printing system and
+ general replacement for lpd and the like.  It supports the Internet
+ Printing Protocol (IPP), and has its own filtering driver model for
+ handling various document types.
+ .
+ This package provides the base shared libraries for CUPS.
+Original-Maintainer: Debian CUPS Maintainers <pkg-cups-devel@lists.alioth.debian.org>

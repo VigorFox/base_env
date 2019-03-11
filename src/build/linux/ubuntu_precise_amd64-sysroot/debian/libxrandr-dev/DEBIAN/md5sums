@@ -1,0 +1,5 @@
+f23c44f59e76cd1552d0d1316bf0fa0f  usr/include/X11/extensions/Xrandr.h
+9c8fb68d54cb47e891b36d7f9d7327aa  usr/lib/x86_64-linux-gnu/libXrandr.a
+7833a7db6a21d2cda2379c07118336ce  usr/lib/x86_64-linux-gnu/pkgconfig/xrandr.pc
+d3a7e4c0f4aa8686f93fa691b7907840  usr/share/doc/libxrandr-dev/copyright
+e0c4e6a186f3d6a615654d332db6c6ee  usr/share/man/man3/Xrandr.3.gz

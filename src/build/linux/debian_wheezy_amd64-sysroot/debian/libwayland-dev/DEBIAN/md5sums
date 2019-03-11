@@ -1,0 +1,16 @@
+1178e75bf0ace85a3f0d39b27aea691e  usr/bin/wayland-scanner
+64fe2abaf3ba03aca1007983b91ff25b  usr/include/wayland-client-protocol.h
+482bbcd0838eba186ffa6a44df916c84  usr/include/wayland-client.h
+9b231fd53967229f80f76dd513f8418c  usr/include/wayland-egl.h
+a003c3f1c03e332bf3db4f32b715447a  usr/include/wayland-server-protocol.h
+fe9b617efec7ae216ce64d0e255a0406  usr/include/wayland-server.h
+fb563f4865ca51e6747545179ac69463  usr/include/wayland-util.h
+6ae443188b5fda4621760abfb742135a  usr/lib/libwayland-client.a
+e0688192099a5d3a35dd5caf52b563ae  usr/lib/libwayland-server.a
+338992d8827270f5bc1476bdd84d6bd8  usr/lib/pkgconfig/wayland-client.pc
+752a93fb57b651ad4e86b6b85865fbfc  usr/lib/pkgconfig/wayland-server.pc
+41843bed1006ea22117b7289eb2ca954  usr/share/aclocal/wayland-scanner.m4
+fa612e7053b456f5aa91d252f26d819e  usr/share/aclocal/wayland-scanner.mk
+97b81c42bafb1d1c30ab8bbb7b5ad9a6  usr/share/doc/libwayland-dev/changelog.Debian.gz
+4b4ac77ec89080723bffb52c5cfb4f32  usr/share/doc/libwayland-dev/changelog.gz
+ffc25dcf8d4b7ad9e7e662b82eeccc54  usr/share/doc/libwayland-dev/copyright

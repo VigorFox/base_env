@@ -1,0 +1,15 @@
+Package: libssl-dev
+Source: openssl
+Version: 1.0.1-4ubuntu5.38
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 6166
+Depends: libssl1.0.0 (= 1.0.1-4ubuntu5.38), zlib1g-dev
+Recommends: libssl-doc
+Section: libdevel
+Priority: optional
+Description: SSL development libraries, header files and documentation
+ libssl and libcrypto development libraries, header files and manpages.
+ .
+ It is part of the OpenSSL implementation of SSL.
+Original-Maintainer: Debian OpenSSL Team <pkg-openssl-devel@lists.alioth.debian.org>

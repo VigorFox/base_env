@@ -1,0 +1,5 @@
+7d24b93c187fb0fcdc0df2b674a6fac1  usr/include/X11/extensions/Xfixes.h
+4d24d1b1831a19bd49c957781c967a5a  usr/lib/x86_64-linux-gnu/libXfixes.a
+40a8bcdd65f004e01afc5b4021366bdb  usr/lib/x86_64-linux-gnu/pkgconfig/xfixes.pc
+34ab9b8e1af46679057776d25716c184  usr/share/doc/libxfixes-dev/copyright
+0ba0d30bf428dc912fcb175073d06ab7  usr/share/man/man3/Xfixes.3.gz

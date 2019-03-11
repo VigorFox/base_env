@@ -1,0 +1,18 @@
+Package: libdrm-nouveau1a
+Source: libdrm
+Version: 2.4.52-1~precise2
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 87
+Pre-Depends: multiarch-support
+Depends: libc6 (>= 2.14), libdrm2 (>= 2.4.3)
+Conflicts: libdrm-nouveau1
+Section: libs
+Priority: optional
+Multi-Arch: same
+Description: Userspace interface to nouveau-specific kernel DRM services -- runtime
+ This library implements the userspace interface to the nouveau-specific kernel
+ DRM services. DRM stands for "Direct Rendering Manager", which is the
+ kernelspace portion of the "Direct Rendering Infrastructure" (DRI). The DRI is
+ currently used on Linux to provide hardware-accelerated OpenGL drivers.
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>

@@ -1,0 +1,20 @@
+Package: libgdk-pixbuf2.0-0
+Source: gdk-pixbuf
+Version: 2.26.1-1ubuntu1.5
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 550
+Pre-Depends: multiarch-support
+Depends: libc6 (>= 2.14), libglib2.0-0 (>= 2.31.18), libjasper1, libjpeg8 (>= 8c), libpng12-0 (>= 1.2.13-4), libtiff4, libx11-6, libgdk-pixbuf2.0-common (= 2.26.1-1ubuntu1.5)
+Breaks: libgtk2.0-0 (<< 2.21.3), libgtk2.0-bin (<< 2.21.3), librsvg2-2 (<< 2.26.3-2), libwmf0.2-7 (<< 0.2.8.4-7)
+Replaces: libgtk2.0-0 (<< 2.21.3), libgtk2.0-bin (<< 2.21.3)
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: http://www.gtk.org/
+Description: GDK Pixbuf library
+ The GDK Pixbuf library provides:
+  - Image loading and saving facilities.
+  - Fast scaling and compositing of pixbufs.
+  - Simple animation loading (ie. animated GIFs)
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>

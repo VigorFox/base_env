@@ -1,0 +1,26 @@
+Package: libwayland0
+Source: wayland
+Version: 0.85.0-1ubuntu2
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 135
+Pre-Depends: multiarch-support
+Depends: libc6 (>= 2.14), libffi6 (>= 3.0.4)
+Conflicts: libwayland-client0, libwayland-server0
+Replaces: libwayland-client0, libwayland-server0
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: http://wayland.freedesktop.org
+Description: wayland compositor infrastructure - shared libraries
+ Wayland is a protocol for a compositor to talk to its clients as well
+ as a C library implementation of that protocol. The compositor can be
+ a standalone display server running on Linux kernel modesetting and
+ evdev input devices, an X application, or a wayland client
+ itself. The clients can be traditional applications, X servers
+ (rootless or fullscreen) or other display servers.
+ .
+ This is an experimental library package, neither ABI or API are fixed
+ right now. As a consequence, generated dependencies are made as
+ strict as possible. It should only be used by mesa and wayland-demos.
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>

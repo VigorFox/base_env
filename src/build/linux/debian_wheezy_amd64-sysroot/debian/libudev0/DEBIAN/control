@@ -1,0 +1,13 @@
+Package: libudev0
+Source: udev
+Version: 175-7.2
+Architecture: amd64
+Maintainer: Marco d'Itri <md@linux.it>
+Installed-Size: 158
+Pre-Depends: multiarch-support
+Depends: libc6 (>= 2.8)
+Section: libs
+Priority: important
+Multi-Arch: same
+Description: libudev shared library
+ This library provides access to udev device information.

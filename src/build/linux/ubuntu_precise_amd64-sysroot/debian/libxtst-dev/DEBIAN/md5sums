@@ -1,0 +1,13 @@
+6870ababd6c7442db582704ae724f69a  usr/include/X11/extensions/XTest.h
+bf4307ca11adabd494cd8546def4efa7  usr/include/X11/extensions/record.h
+19076a5921bafd33d5a75538ebfcf203  usr/lib/x86_64-linux-gnu/libXtst.a
+4b28c64c9b3d3089938735228f602f22  usr/lib/x86_64-linux-gnu/pkgconfig/xtst.pc
+1220d2a696df40a4c14fee5b3c7eb235  usr/share/doc/libxtst-dev/copyright
+b4dbfa7fba8d8aa38f94b95ac43d67ae  usr/share/doc/libxtst-dev/recordlib.html
+03bf88914df30a3200dfada585881187  usr/share/doc/libxtst-dev/recordlib.txt.gz
+3bb8b16bdda6f13dbd215f20d6dfa40e  usr/share/doc/libxtst-dev/recordlib.xml.gz
+7d02862efc34a6f170182adaf5e7f555  usr/share/doc/libxtst-dev/xorg.css
+c9857da0303bf12d026e8bcb5607f53d  usr/share/doc/libxtst-dev/xtestlib.html
+417b7a38a4610d286b396c41c2980862  usr/share/doc/libxtst-dev/xtestlib.txt.gz
+6b7d07954043a5c39a5d59c2eb367439  usr/share/doc/libxtst-dev/xtestlib.xml.gz
+ebeaaed9806429909aa47530c52457fd  usr/share/man/man3/XTestQueryExtension.3.gz

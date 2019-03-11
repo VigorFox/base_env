@@ -1,0 +1,13 @@
+Package: libpixman-1-dev
+Source: pixman
+Version: 0.30.2-1ubuntu0.0.0.0.3
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 893
+Depends: libpixman-1-0 (= 0.30.2-1ubuntu0.0.0.0.3)
+Section: libdevel
+Priority: optional
+Description: pixel-manipulation library for X and cairo (development files)
+ Development libraries, header files and documentation needed by
+ programs that want to compile with the Cairo/X pixman library.
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>

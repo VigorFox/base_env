@@ -1,0 +1,19 @@
+Package: libcairo-script-interpreter2
+Source: cairo
+Version: 1.10.2-6.1ubuntu3
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 754
+Pre-Depends: multiarch-support
+Depends: libc6 (>= 2.14), libcairo2 (>= 1.10.0), libfontconfig1 (>= 2.8.0), libfreetype6 (>= 2.2.1), zlib1g (>= 1:1.1.4)
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: http://cairographics.org/
+Description: The Cairo 2D vector graphics library (script interpreter)
+ Cairo is a multi-platform library providing anti-aliased
+ vector-based rendering for multiple target backends.
+ .
+ This package contains the script interpreter for executing and manipulating
+ cairo execution traces.
+Original-Maintainer: Dave Beckett <dajobe@debian.org>

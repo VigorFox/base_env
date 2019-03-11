@@ -1,0 +1,4 @@
+75826ba1a58ae4b556565ef8bc6e9e80  usr/include/xcb/shm.h
+0b656e467a0004522fc57e073c423f77  usr/lib/x86_64-linux-gnu/libxcb-shm.a
+2adf59fc8e355692d13f01ca5c873f8d  usr/lib/x86_64-linux-gnu/pkgconfig/xcb-shm.pc
+360fadb0d222af6607a189d435e3a9f3  usr/share/doc/libxcb-shm0-dev/copyright

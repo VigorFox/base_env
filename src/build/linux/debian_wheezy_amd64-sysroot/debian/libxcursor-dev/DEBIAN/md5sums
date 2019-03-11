@@ -1,0 +1,6 @@
+88f1b8a6060ac3aac07e777f6c185cd5  usr/include/X11/Xcursor/Xcursor.h
+dd86e7a1ff0b013891e7bb0ad93d6852  usr/lib/x86_64-linux-gnu/libXcursor.a
+4ac8b840f6683d6b97dc59be863e9637  usr/lib/x86_64-linux-gnu/pkgconfig/xcursor.pc
+a197cb140289f3cafc963eaad5e5a0bb  usr/share/doc/libxcursor-dev/changelog.Debian.gz
+0a8828ee7027e5ec633c9b0ab03d7fac  usr/share/doc/libxcursor-dev/copyright
+792c882ddc55e8b4179ae31336412f6d  usr/share/man/man3/Xcursor.3.gz

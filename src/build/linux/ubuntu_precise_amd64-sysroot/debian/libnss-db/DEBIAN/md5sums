@@ -1,0 +1,9 @@
+0aeb4575b009c6a02c50bce640c4dcba  usr/bin/makedb
+7571de56f90d6ffe3c75a727f2af6c2f  usr/lib/libnss_db-2.2.3.so
+a6c1720422fa9dd71d4ae55897317e60  usr/share/doc/libnss-db/NEWS.gz
+5df4581345c1f57663dfbcd64e7a45b0  usr/share/doc/libnss-db/README
+6ed2e041f96d53f7ac63f8ed39b9d611  usr/share/doc/libnss-db/changelog.Debian.gz
+778babda8d4d641691dc880c13603929  usr/share/doc/libnss-db/copyright
+ae13e4b7d3b57a179a0a169452f9586b  usr/share/lintian/overrides/libnss-db
+7549a27bc83cc117453414c2cdd91e2d  usr/share/man/man1/makedb.1.gz
+305c810f2a652d0ffa1520662c2e15a8  var/lib/misc/Makefile

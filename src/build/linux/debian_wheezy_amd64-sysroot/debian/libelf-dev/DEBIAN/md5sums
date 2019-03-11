@@ -1,0 +1,9 @@
+567afe0fbc13497bd9272e50740b9d40  usr/include/elfutils/elf-knowledge.h
+3ba51b55dd915656794b9b5d230c2de1  usr/include/elfutils/version.h
+2d5080d0e443a6d3fc9485455c5549d7  usr/include/gelf.h
+3959d997806a5e98189751a84ab95976  usr/include/libelf.h
+1810dc1325d3b0d3243bd546990b9b18  usr/include/nlist.h
+a94a091f0c16f300564d5f03db612c6e  usr/lib/libelf.a
+67b40372d61936c9962e21fe84045660  usr/share/doc/libelf-dev/changelog.Debian.gz
+255565cb946c0a8a01212dd935d0556a  usr/share/doc/libelf-dev/changelog.gz
+0a19b3b7d6efd8c3d4314740ed513a00  usr/share/doc/libelf-dev/copyright

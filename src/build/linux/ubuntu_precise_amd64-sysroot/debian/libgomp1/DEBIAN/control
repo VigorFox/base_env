@@ -1,0 +1,17 @@
+Package: libgomp1
+Source: gcc-4.6
+Version: 4.6.3-1ubuntu5
+Architecture: amd64
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 88
+Pre-Depends: multiarch-support
+Depends: gcc-4.6-base (= 4.6.3-1ubuntu5), libc6 (>= 2.14)
+Breaks: gcc-4.1, gcc-4.3 (<< 4.3.6-1), gcc-4.4 (<< 4.4.6-4), gcc-4.5 (<< 4.5.3-2)
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: http://gcc.gnu.org/
+Description: GCC OpenMP (GOMP) support library
+ GOMP is an implementation of OpenMP for the C, C++, and Fortran compilers
+ in the GNU Compiler Collection.
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>

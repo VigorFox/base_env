@@ -1,0 +1,21 @@
+Package: liborbit2
+Source: orbit2
+Version: 1:2.14.19-0.1
+Architecture: amd64
+Maintainer: Sebastian Rittau <srittau@debian.org>
+Installed-Size: 701
+Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.24.0), libidl0
+Conflicts: libbonobo-activation4 (<< 1:2.4.0), liblinc1 (<< 1.0.3-4), liborbit2-dev (<< 2.8.1-1)
+Replaces: liborbit2-dev (<< 2.8.1-1)
+Section: libs
+Priority: optional
+Description: libraries for ORBit2 - a CORBA ORB
+ ORBit2 is a high-performance CORBA (Common Object Request Broker
+ Architecture) ORB (Object Request Broker). It allows programs to send
+ requests and receive replies from other programs, regardless of the
+ locations of the two programs. CORBA is an architecture that enables
+ communication between program objects, regardless of the programming
+ language they're written in or the operating system they run on.
+ .
+ This package contains the run-time libraries used by ORBit2-based
+ applications.

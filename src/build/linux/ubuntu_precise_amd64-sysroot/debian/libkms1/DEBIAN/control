@@ -1,0 +1,15 @@
+Package: libkms1
+Source: libdrm
+Version: 2.4.46-1ubuntu0.0.0.1
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 77
+Pre-Depends: multiarch-support
+Depends: libc6 (>= 2.4), libdrm2 (>= 2.4.25)
+Section: libs
+Priority: optional
+Multi-Arch: same
+Description: Userspace interface to kernel DRM buffer management
+ This library implements a unified userspace interface to the different buffer
+ management interfaces of the kernel DRM hardware drivers.
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>

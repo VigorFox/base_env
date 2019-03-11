@@ -1,0 +1,15 @@
+Package: libffi5
+Source: libffi
+Version: 3.0.10-3
+Architecture: amd64
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 90
+Pre-Depends: multiarch-support
+Depends: libc6 (>= 2.2.5)
+Section: libs
+Priority: optional
+Multi-Arch: same
+Description: Foreign Function Interface library runtime
+ A foreign function interface is the popular name for the interface that
+ allows code written in one language to call code written in another
+ language.

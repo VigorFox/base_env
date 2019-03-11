@@ -1,0 +1,23 @@
+Package: libkadm5srv-mit8
+Source: krb5
+Version: 1.10.1+dfsg-5+deb7u7
+Architecture: amd64
+Maintainer: Sam Hartman <hartmans@debian.org>
+Installed-Size: 190
+Pre-Depends: multiarch-support
+Depends: libc6 (>= 2.7), libcomerr2 (>= 1.01), libgssapi-krb5-2 (>= 1.6.dfsg.2), libgssrpc4 (>= 1.6.dfsg.2), libk5crypto3 (>= 1.6.dfsg.2), libkdb5-6, libkrb5-3 (>= 1.9+dfsg~beta1), libkrb5support0 (>= 1.7dfsg~beta2)
+Suggests: krb5-doc, krb5-user
+Section: libs
+Priority: standard
+Multi-Arch: same
+Homepage: http://web.mit.edu/kerberos/
+Description: MIT Kerberos runtime libraries - KDC and Admin Server
+ Kerberos is a system for authenticating users and services on a network.
+ Kerberos is a trusted third-party service.  That means that there is a
+ third party (the Kerberos server) that is trusted by all the entities on
+ the network (users and services, usually called "principals").
+ .
+ This is the MIT reference implementation of Kerberos V5.
+ .
+ This package contains the runtime library used by Kerberos administrative
+ servers.

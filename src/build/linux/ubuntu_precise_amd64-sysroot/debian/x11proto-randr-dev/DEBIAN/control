@@ -1,0 +1,19 @@
+Package: x11proto-randr-dev
+Source: x11proto-randr
+Version: 1.4.0+git20120101.is.really.1.4.0-0ubuntu1~precise2
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 110
+Section: x11
+Priority: optional
+Multi-Arch: foreign
+Description: X11 RandR extension wire protocol
+ This package provides development headers describing the wire protocol
+ for the RandR extension, used to change display properties such as
+ resolution, rotation, reflection, et al, on the fly.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This package is built from the X.org randrproto proto module.
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>

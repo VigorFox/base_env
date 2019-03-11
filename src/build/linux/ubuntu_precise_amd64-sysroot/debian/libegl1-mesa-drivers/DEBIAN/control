@@ -1,0 +1,21 @@
+Package: libegl1-mesa-drivers
+Source: mesa
+Version: 8.0.4-0ubuntu0.7
+Architecture: amd64
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Installed-Size: 6599
+Pre-Depends: multiarch-support
+Depends: libc6 (>= 2.14), libdrm-nouveau1a (>= 2.4.23), libdrm2 (>= 2.4.17), libegl1-mesa (= 8.0.4-0ubuntu0.7), libgbm1 (>= 7.11~1), libgcc1 (>= 1:4.1.1), libglapi-mesa (= 8.0.4-0ubuntu0.7), libllvm3.0, libopenvg1-mesa (>= 7.9~) | libopenvg1, libstdc++6 (>= 4.1.1), libudev0 (>= 147), libwayland0, libx11-6 (>= 2:1.4.99.1), libxext6, libxfixes3
+Replaces: libegl1-mesa (<= 8.0.1-0ubuntu2)
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: http://mesa3d.sourceforge.net/
+Description: free implementation of the EGL API -- hardware drivers
+ This package contains the EGL native platform graphics interface library.
+ EGL provides a platform-agnostic mechanism for creating rendering surfaces
+ for use with other graphics libraries, such as OpenGL|ES and OpenVG.
+ .
+ This package contains the drivers required for hardware accelerated rendering
+ of EGL-based graphics libraries, such as OpenGL|ES and OpenVG.
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>

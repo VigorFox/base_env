@@ -1,0 +1,23 @@
+Package: libxtst6
+Source: libxtst
+Version: 2:1.2.1-1+deb7u1
+Architecture: amd64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 72
+Pre-Depends: multiarch-support
+Depends: libc6 (>= 2.2.5), libx11-6 (>= 2:1.4.99.1), libxext6, libxi6, x11-common
+Section: libs
+Priority: optional
+Multi-Arch: same
+Description: X11 Testing -- Record extension library
+ libXtst provides an X Window System client interface to the Record
+ extension to the X protocol.
+ .
+ The Record extension allows X clients to synthesise input events, which
+ is useful for automated testing.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libXtst

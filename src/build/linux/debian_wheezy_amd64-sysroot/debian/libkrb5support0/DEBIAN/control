@@ -1,0 +1,23 @@
+Package: libkrb5support0
+Source: krb5
+Version: 1.10.1+dfsg-5+deb7u7
+Architecture: amd64
+Maintainer: Sam Hartman <hartmans@debian.org>
+Installed-Size: 116
+Pre-Depends: multiarch-support
+Depends: libc6 (>= 2.3.4), libkeyutils1
+Conflicts: libkrb53
+Section: libs
+Priority: standard
+Multi-Arch: same
+Homepage: http://web.mit.edu/kerberos/
+Description: MIT Kerberos runtime libraries - Support library
+ Kerberos is a system for authenticating users and services on a network.
+ Kerberos is a trusted third-party service.  That means that there is a
+ third party (the Kerberos server) that is trusted by all the entities on
+ the network (users and services, usually called "principals").
+ .
+ This is the MIT reference implementation of Kerberos V5.
+ .
+ This package contains an internal runtime support library used by other
+ Kerberos libraries.

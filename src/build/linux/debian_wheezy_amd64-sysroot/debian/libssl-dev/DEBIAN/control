@@ -1,0 +1,14 @@
+Package: libssl-dev
+Source: openssl
+Version: 1.0.1e-2+deb7u20
+Architecture: amd64
+Maintainer: Debian OpenSSL Team <pkg-openssl-devel@lists.alioth.debian.org>
+Installed-Size: 6332
+Depends: libssl1.0.0 (= 1.0.1e-2+deb7u20), zlib1g-dev
+Recommends: libssl-doc
+Section: libdevel
+Priority: optional
+Description: SSL development libraries, header files and documentation
+ libssl and libcrypto development libraries, header files and manpages.
+ .
+ It is part of the OpenSSL implementation of SSL.

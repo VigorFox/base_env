@@ -1,0 +1,22 @@
+Package: libxkbcommon0
+Source: libxkbcommon
+Version: 0.1.0~1-0ubuntu1
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 319
+Depends: xkb-data, libc6 (>= 2.7)
+Section: libs
+Priority: optional
+Description: library interface to the XKB compiler - shared library
+ libxkbcommon aims at replacing xkbcomp, the XKB compiler.
+ .
+ UNSUPPORTED.  This is an experimental library, and its ABI/API is likely to change
+ on a regular fashion before it stabilizes, depending on XServer's and
+ Wayland's needs in particular.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libxkbcommon
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>

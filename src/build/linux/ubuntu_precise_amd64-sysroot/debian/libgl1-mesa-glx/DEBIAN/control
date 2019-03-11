@@ -1,0 +1,28 @@
+Package: libgl1-mesa-glx
+Source: mesa
+Version: 8.0.4-0ubuntu0.7
+Architecture: amd64
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Installed-Size: 481
+Pre-Depends: multiarch-support
+Depends: libc6 (>= 2.14), libdrm2 (>= 2.3.1), libglapi-mesa (= 8.0.4-0ubuntu0.7), libx11-6 (>= 2:1.4.99.1), libx11-xcb1, libxcb-glx0 (>= 1.8), libxcb1, libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxxf86vm1
+Recommends: libgl1-mesa-dri (>= 7.2)
+Conflicts: libgl1, libgl1-mesa-dri (<< 6.4.0)
+Breaks: fglrx-glx (<< 1:11-6-1), libgl1-nvidia-alternatives (<= 275.09.07-1)
+Replaces: libgl1, libgl1-mesa-dri (<< 6.4.0)
+Provides: libgl1
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: http://mesa3d.sourceforge.net/
+Description: free implementation of the OpenGL API -- GLX runtime
+ This version of Mesa provides GLX and DRI capabilities: it is capable of
+ both direct and indirect rendering.  For direct rendering, it can use DRI
+ modules from the libgl1-mesa-dri package to accelerate drawing.
+ .
+ This package does not include the modules themselves: these can be found
+ in the libgl1-mesa-dri package.
+ .
+ For a complete description of Mesa, please look at the
+ libgl1-mesa-swx11 package.
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>

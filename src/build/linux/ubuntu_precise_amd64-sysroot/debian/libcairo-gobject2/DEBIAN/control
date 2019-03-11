@@ -1,0 +1,19 @@
+Package: libcairo-gobject2
+Source: cairo
+Version: 1.10.2-6.1ubuntu3
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 650
+Pre-Depends: multiarch-support
+Depends: libc6 (>= 2.2.5), libcairo2 (>= 1.10.0), libglib2.0-0 (>= 2.14.0)
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: http://cairographics.org/
+Description: The Cairo 2D vector graphics library (GObject library)
+ Cairo is a multi-platform library providing anti-aliased
+ vector-based rendering for multiple target backends.
+ .
+ This package contains the GObject library, providing wrapper GObject types
+ for all cairo types.
+Original-Maintainer: Dave Beckett <dajobe@debian.org>

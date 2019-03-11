@@ -1,0 +1,22 @@
+Package: libgconf2-dev
+Source: gconf
+Version: 3.2.5-0ubuntu2
+Architecture: amd64
+Maintainer: Ubuntu Desktop Team <ubuntu-desktop@lists.ubuntu.com>
+Installed-Size: 956
+Depends: libgconf-2-4 (= 3.2.5-0ubuntu2), gir1.2-gconf-2.0 (= 3.2.5-0ubuntu2), libglib2.0-dev (>= 2.25.9), libdbus-1-dev (>= 1.0.0), gconf2 (= 3.2.5-0ubuntu2)
+Recommends: libgconf2-doc
+Replaces: gir-repository-dev (<< 0.6.5-7)
+Section: libdevel
+Priority: optional
+Homepage: http://projects.gnome.org/gconf/
+Description: GNOME configuration database system (development)
+ GConf is a configuration database system for storing application
+ preferences. It supports default or mandatory settings set by the
+ administrator, and changes to the database are instantly applied to all
+ running applications. It is written for the GNOME desktop but doesn't
+ require it.
+ .
+ This package contains the static libraries and header files needed to
+ build applications using GConf.
+Original-Maintainer: Josselin Mouette <joss@debian.org>

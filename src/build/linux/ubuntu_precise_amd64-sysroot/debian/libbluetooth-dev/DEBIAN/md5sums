@@ -1,0 +1,16 @@
+d27e19d7e301879ecd0bdaad19c80359  usr/include/bluetooth/bluetooth.h
+912f4c5075080add421c014ff8ad5d34  usr/include/bluetooth/bnep.h
+6c57557977d030fb29c2024cf35d6bed  usr/include/bluetooth/cmtp.h
+75ac8fa57a32641f07aa27044c00d2b7  usr/include/bluetooth/hci.h
+81aac28796c7056ea772573fb0c6033a  usr/include/bluetooth/hci_lib.h
+3c0d932234ffe3ea9ca699a54572518b  usr/include/bluetooth/hidp.h
+014863621e7dfad233352d469d8a792f  usr/include/bluetooth/l2cap.h
+e6203eed0085e92f95e33026ddaa0236  usr/include/bluetooth/mgmt.h
+0abcd0f80bc37d41453ac935049c73d6  usr/include/bluetooth/rfcomm.h
+dd6fac08fed5247be6f616cacf0a5288  usr/include/bluetooth/sco.h
+7090af077ed28612dbe05e171e0b6ab6  usr/include/bluetooth/sdp.h
+06a1b3878e1f0a3b447230dd5cca512d  usr/include/bluetooth/sdp_lib.h
+313b7ef175cdb954616e48abeb517311  usr/include/bluetooth/uuid.h
+fa1f765dd7b0920f9c174c8dbc5c8ecc  usr/lib/x86_64-linux-gnu/libbluetooth.a
+5a92ddadded92d1ecde8a3519b28eb78  usr/lib/x86_64-linux-gnu/pkgconfig/bluez.pc
+3b032ce14319270ad12d0d318de495d8  usr/share/doc/libbluetooth-dev/copyright

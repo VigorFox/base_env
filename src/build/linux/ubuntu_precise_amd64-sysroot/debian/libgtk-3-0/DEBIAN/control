@@ -1,0 +1,26 @@
+Package: libgtk-3-0
+Source: gtk+3.0
+Version: 3.4.2-0ubuntu0.9
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 5804
+Pre-Depends: multiarch-support
+Depends: libgtk-3-common (= 3.4.2-0ubuntu0.9), libatk1.0-0 (>= 2.2.0), libc6 (>= 2.14), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.10.0), libcups2 (>= 1.4.0), libfontconfig1 (>= 2.8.0), libgdk-pixbuf2.0-0 (>= 2.25.2), libglib2.0-0 (>= 2.32.0), libpango1.0-0 (>= 1.30.0), libx11-6 (>= 2:1.4.99.1), libxcomposite1 (>= 1:0.3-1), libxcursor1 (>> 1.1.2), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxi6 (>= 2:1.2.99.4), libxinerama1, libxrandr2 (>= 2:1.2.99.3), shared-mime-info
+Recommends: hicolor-icon-theme, libgtk-3-bin
+Suggests: librsvg2-common, gvfs
+Conflicts: libgtk3.0-0
+Breaks: gnome-themes-standard (<< 3.2)
+Replaces: libgtk3.0-0
+Provides: gtk3-binver-3.0.0
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: http://www.gtk.org/
+Description: GTK+ graphical user interface library
+ GTK+ is a multi-platform toolkit for creating graphical user
+ interfaces. Offering a complete set of widgets, GTK+ is suitable
+ for projects ranging from small one-off tools to complete application
+ suites.
+ .
+ This package contains the shared libraries.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>

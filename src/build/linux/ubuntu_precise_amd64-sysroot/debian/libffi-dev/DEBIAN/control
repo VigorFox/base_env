@@ -1,0 +1,19 @@
+Package: libffi-dev
+Source: libffi
+Version: 3.0.11~rc1-5
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 348
+Depends: libffi6 (= 3.0.11~rc1-5), dpkg (>= 1.15.4) | install-info
+Conflicts: libffi4-dev
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Description: Foreign Function Interface library (development files)
+ This package contains the headers and static library files necessary for
+ building programs which use libffi.
+ .
+ A foreign function interface is the popular name for the interface that
+ allows code written in one language to call code written in another
+ language.

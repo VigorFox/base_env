@@ -1,0 +1,18 @@
+Package: zlib1g-dev
+Source: zlib
+Version: 1:1.2.3.4.dfsg-3ubuntu4
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 388
+Depends: zlib1g (= 1:1.2.3.4.dfsg-3ubuntu4), libc6-dev | libc-dev
+Conflicts: zlib1-dev
+Provides: libz-dev
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: http://zlib.net/
+Description: compression library - development
+ zlib is a library implementing the deflate compression method found
+ in gzip and PKZIP.  This package includes the development support
+ files.
+Original-Maintainer: Mark Brown <broonie@debian.org>

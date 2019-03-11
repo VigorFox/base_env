@@ -1,0 +1,24 @@
+Package: libgconf-2-4
+Source: gconf
+Version: 3.2.5-0ubuntu2
+Architecture: amd64
+Maintainer: Ubuntu Desktop Team <ubuntu-desktop@lists.ubuntu.com>
+Installed-Size: 564
+Pre-Depends: multiarch-support
+Depends: libc6 (>= 2.4), libdbus-1-3 (>= 1.0.2), libdbus-glib-1-2 (>= 0.78), libglib2.0-0 (>= 2.25.9), gconf2-common (= 3.2.5-0ubuntu2)
+Recommends: gconf-service
+Conflicts: libbonobo2-0 (<< 2.24)
+Breaks: gconf2 (<< 3.2.3-2), libgconf2-4 (<< 3.2.3-2)
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: http://projects.gnome.org/gconf/
+Description: GNOME configuration database system (shared libraries)
+ GConf is a configuration database system for storing application
+ preferences. It supports default or mandatory settings set by the
+ administrator, and changes to the database are instantly applied to all
+ running applications. It is written for the GNOME desktop but doesn't
+ require it.
+ .
+ This package contains the shared libraries.
+Original-Maintainer: Josselin Mouette <joss@debian.org>

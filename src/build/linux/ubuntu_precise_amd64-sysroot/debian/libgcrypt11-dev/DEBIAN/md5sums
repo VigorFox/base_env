@@ -1,0 +1,10 @@
+f31b3b370bb0d0025f8453f7ff7141bd  lib/x86_64-linux-gnu/libgcrypt.a
+a77af15967db3a6706bb611ed6e8c391  usr/bin/dumpsexp
+9c23192ab1afdf95276c7f0be2311749  usr/bin/hmac256
+65624ee7b4fe5566bde188c05e243b90  usr/bin/libgcrypt-config
+ed9f0332d80b875611307f50b30ce945  usr/include/gcrypt-module.h
+096f39984a0963db0895e462a95fb63f  usr/include/gcrypt.h
+c3d27cb78a502f322bd6a28c098621d8  usr/share/aclocal/libgcrypt.m4
+5e6d057f06ced5b7b6e53866506a9a3e  usr/share/doc/libgcrypt11-dev/copyright
+3beeb1a90c8437a2fc6ad520e153a7e7  usr/share/man/man1/dumpsexp.1.gz
+6eb196802534e1bda43e58ec335ad321  usr/share/man/man1/libgcrypt-config.1.gz

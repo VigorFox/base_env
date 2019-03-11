@@ -1,0 +1,17 @@
+Package: libpixman-1-0
+Source: pixman
+Version: 0.30.2-1ubuntu0.0.0.0.3
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 656
+Pre-Depends: multiarch-support
+Depends: libc6 (>= 2.14)
+Section: libs
+Priority: optional
+Multi-Arch: same
+Description: pixel-manipulation library for X and cairo
+ A library for manipulating pixel regions -- a set of Y-X banded
+ rectangles, image compositing using the Porter/Duff model
+ and implicit mask generation for geometric primitives including
+ trapezoids, triangles, and rectangles.
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>

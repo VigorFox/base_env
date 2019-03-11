@@ -1,0 +1,18 @@
+Package: libdrm-dev
+Source: libdrm
+Version: 2.4.40-1~deb7u2
+Architecture: amd64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 1159
+Depends: libdrm2 (= 2.4.40-1~deb7u2), libdrm-intel1 (= 2.4.40-1~deb7u2), libdrm-radeon1 (= 2.4.40-1~deb7u2), libdrm-nouveau1a (= 2.4.40-1~deb7u2), libkms1 (= 2.4.40-1~deb7u2)
+Replaces: linux-libc-dev (<< 2.6.32-10)
+Section: libdevel
+Priority: optional
+Description: Userspace interface to kernel DRM services -- development files
+ This library implements the userspace interface to the kernel DRM
+ services.  DRM stands for "Direct Rendering Manager", which is the
+ kernelspace portion of the "Direct Rendering Infrastructure" (DRI).
+ The DRI is currently used on Linux to provide hardware-accelerated
+ OpenGL drivers.
+ .
+ This package provides the development environment for libdrm.

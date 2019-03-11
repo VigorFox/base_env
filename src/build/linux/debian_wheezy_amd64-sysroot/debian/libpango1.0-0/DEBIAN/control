@@ -1,0 +1,29 @@
+Package: libpango1.0-0
+Source: pango1.0
+Version: 1.30.0-1
+Architecture: amd64
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 1080
+Pre-Depends: multiarch-support
+Depends: libc6 (>= 2.4), libcairo2 (>= 1.8.10-3), libfontconfig1 (>= 2.8.0), libfreetype6 (>= 2.2.1), libglib2.0-0 (>= 2.31.8), libthai0 (>= 0.1.12), libx11-6, libxft2 (>> 2.1.1), libxrender1, fontconfig (>= 2.1.91)
+Suggests: ttf-baekmuk, ttf-arphic-gbsn00lp, ttf-arphic-bsmi00lp, ttf-arphic-gkai00mp, ttf-arphic-bkai00mp
+Breaks: plymouth (<< 0.8.3-19)
+Provides: pango1.0-multiarch-modver-1.6.0
+Section: libs
+Priority: optional
+Multi-Arch: same
+Description: Layout and rendering of internationalized text
+ Pango is a library for layout and rendering of text, with an emphasis
+ on internationalization. Pango can be used anywhere that text layout is
+ needed. however, most of the work on Pango-1.0 was done using the GTK+
+ widget toolkit as a test platform. Pango forms the core of text and
+ font handling for GTK+-2.0.
+ .
+ Pango is designed to be modular; the core Pango layout can be used with
+ four different font backends:
+  - Core X windowing system fonts
+  - Client-side fonts on X using the Xft library
+  - Direct rendering of scalable fonts using the FreeType library
+  - Native fonts on Microsoft backends
+ .
+ This package contains the shared libraries.

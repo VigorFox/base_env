@@ -1,0 +1,14 @@
+5342876a1c977b7e02ea018cb984b90e  usr/include/X11/ImUtil.h
+83b76994b177c6fb7d0f6fb4eaae0c56  usr/include/X11/XKBlib.h
+54a680f916068a02273557029cd77b21  usr/include/X11/Xcms.h
+a3a20216680ea5011465367b53397911  usr/include/X11/Xlib.h
+0ebe0dfd854ba01cb4ae410b5725f451  usr/include/X11/XlibConf.h
+2e7597667ada3a33616bba8aee4496dc  usr/include/X11/Xlibint.h
+ab272ffd24cfe4c58dbda9e3766e62a6  usr/include/X11/Xlocale.h
+a8ff52842118116e82536bb102688353  usr/include/X11/Xregion.h
+eef17fe96484467629446ef5ccbc0dea  usr/include/X11/Xresource.h
+c57dbbe33b917caf58114093bd49948d  usr/include/X11/Xutil.h
+19a2b85301ceefbccf163b6af8eb59e0  usr/include/X11/cursorfont.h
+77aabd01cb829a5e89d1c12d61c1d0e1  usr/lib/x86_64-linux-gnu/libX11.a
+7df829b034830c385dd2fa870def9626  usr/lib/x86_64-linux-gnu/pkgconfig/x11.pc
+baa43cabe19521cd793947b55fc034db  usr/share/doc/libx11-dev/copyright

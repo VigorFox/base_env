@@ -1,0 +1,23 @@
+Package: libgl1-mesa-dev
+Source: mesa
+Version: 8.0.5-4+deb7u2
+Architecture: amd64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 81
+Depends: mesa-common-dev (= 8.0.5-4+deb7u2), libgl1-mesa-glx (= 8.0.5-4+deb7u2), libxext-dev
+Conflicts: libgl-dev, libgl1-mesa-dri-dev
+Replaces: libgl-dev, libgl1-mesa-dri-dev
+Provides: libgl-dev, libgl1-mesa-dri-dev
+Section: libdevel
+Priority: optional
+Homepage: http://mesa3d.sourceforge.net/
+Description: free implementation of the OpenGL API -- GLX development files
+ This version of Mesa provides GLX and DRI capabilities: it is capable of
+ both direct and indirect rendering.  For direct rendering, it can use DRI
+ modules from the libgl1-mesa-dri package to accelerate drawing.
+ .
+ This package includes headers and static libraries for compiling
+ programs with Mesa.
+ .
+ For a complete description of Mesa, please look at the libgl1-mesa-swx11
+ package.

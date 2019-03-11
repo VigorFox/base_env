@@ -1,0 +1,5 @@
+4a2fbf862c9ef24176acf30e1c0916ed  usr/include/X11/Xcursor/Xcursor.h
+b39e1fc8a22966db7cf831a6e84f7930  usr/lib/x86_64-linux-gnu/libXcursor.a
+1231d82ac853d81d3218a5df00f52180  usr/lib/x86_64-linux-gnu/pkgconfig/xcursor.pc
+0a8828ee7027e5ec633c9b0ab03d7fac  usr/share/doc/libxcursor-dev/copyright
+9c2cbe64fa260d16e2cf5a8793ed8464  usr/share/man/man3/Xcursor.3.gz

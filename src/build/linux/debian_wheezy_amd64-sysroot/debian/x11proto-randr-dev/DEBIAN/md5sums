@@ -1,0 +1,7 @@
+e31190f6f5e20c8587e0fdd2c38664ee  usr/include/X11/extensions/randr.h
+8b76a526cd11658b813f3dbca8fa3598  usr/include/X11/extensions/randrproto.h
+bf35c23c2775cfdb2deb19393a81c803  usr/share/doc/x11proto-randr-dev/changelog.Debian.gz
+48286d8eb3b173a5910ce47bbcdb1f61  usr/share/doc/x11proto-randr-dev/changelog.gz
+0aeef72b8d469d56c5862538a910f64d  usr/share/doc/x11proto-randr-dev/copyright
+eef3c336dada1e2a826d66c944cefc05  usr/share/doc/x11proto-randr-dev/randrproto.txt.gz
+3af6c1848912b105d4d4647277c257b0  usr/share/pkgconfig/randrproto.pc

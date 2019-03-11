@@ -1,0 +1,14 @@
+3f41b124baa7d308dc75939fd9451ba5  usr/include/gconf/2/gconf/gconf-changeset.h
+c26461707c0884a7d68e79db6876066d  usr/include/gconf/2/gconf/gconf-client.h
+605fc0a46c884ce38ba3df3e7ea297e8  usr/include/gconf/2/gconf/gconf-engine.h
+c0f7c3421140b638f86822528f72873d  usr/include/gconf/2/gconf/gconf-enum-types.h
+6838bd01e133f97894430c504fed335e  usr/include/gconf/2/gconf/gconf-error.h
+eb720b13f2bd6a419f0bdc5777d22e57  usr/include/gconf/2/gconf/gconf-listeners.h
+d89c46e0f2106d002f3734920597c4d1  usr/include/gconf/2/gconf/gconf-schema.h
+f5ed3cb894bca97928cecdae2ccd32c2  usr/include/gconf/2/gconf/gconf-value.h
+ba68345ac69189cecc4cf1a24159e5d3  usr/include/gconf/2/gconf/gconf.h
+ee85c7595e3ae42e0d9c68ade355917c  usr/lib/x86_64-linux-gnu/libgconf-2.a
+3adcf9d066ab3a6e81cd48dcba10a014  usr/lib/x86_64-linux-gnu/pkgconfig/gconf-2.0.pc
+c7f5fb3dc34464dc31f4964b12b773c6  usr/share/aclocal/gconf-2.m4
+616b3703117a9f12548cc7257f95ad24  usr/share/doc/libgconf2-dev/copyright
+dec0eb86c771f31fcae6b30cf63eef16  usr/share/gir-1.0/GConf-2.0.gir

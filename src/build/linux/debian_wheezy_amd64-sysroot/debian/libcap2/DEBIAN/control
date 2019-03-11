@@ -1,0 +1,16 @@
+Package: libcap2
+Version: 1:2.22-1.2
+Architecture: amd64
+Maintainer: Torsten Werner <twerner@debian.org>
+Installed-Size: 55
+Pre-Depends: multiarch-support
+Depends: libattr1 (>= 1:2.4.46-8), libc6 (>= 2.3)
+Section: libs
+Priority: standard
+Multi-Arch: same
+Homepage: http://sites.google.com/site/fullycapable/
+Description: support for getting/setting POSIX.1e capabilities
+ This library implements the user-space interfaces to the POSIX
+ 1003.1e capabilities available in Linux kernels. These capabilities are
+ a partitioning of the all powerful root privilege into a set of distinct
+ privileges.

@@ -1,0 +1,8 @@
+e2cd683dc8c6c1f7cea57653f66c2c15  usr/include/X11/extensions/saver.h
+7a9fa6af16315929587adb2cb472980f  usr/include/X11/extensions/saverproto.h
+338816495d78185a67f1dc374dca529e  usr/lib/pkgconfig/scrnsaverproto.pc
+15990b830d7836cfd3b805990fd495bf  usr/share/doc/x11proto-scrnsaver-dev/changelog.Debian.gz
+817f2e779946a93b6719c99518e17dcb  usr/share/doc/x11proto-scrnsaver-dev/copyright
+303012bee34d3a43a81d6e4e50527cf7  usr/share/doc/x11proto-scrnsaver-dev/saver.html
+e56a75c44399a11ebf625a81a55ea55b  usr/share/doc/x11proto-scrnsaver-dev/saver.txt.gz
+a9820ee8845bf89daa343a4afe6bae9a  usr/share/doc/x11proto-scrnsaver-dev/xorg.css

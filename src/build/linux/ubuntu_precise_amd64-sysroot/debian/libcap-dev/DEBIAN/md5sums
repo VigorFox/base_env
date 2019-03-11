@@ -1,0 +1,10 @@
+ba98c483e13a764726443bad81c5dbfd  lib/x86_64-linux-gnu/libcap.a
+7301a6e60f0034625230b6cbb38613d8  usr/include/sys/capability.h
+4236f1a69a67963bbe19f9f80268d298  usr/share/doc/libcap-dev/copyright
+80d68aebdd2dd2d2716fe0112faaedb2  usr/share/man/man3/cap_clear.3.gz
+32c1fc7cd979887b1d731ab55e4af6c5  usr/share/man/man3/cap_copy_ext.3.gz
+595e821bfd91091d4825519dbf300e43  usr/share/man/man3/cap_from_text.3.gz
+9c3a39ed73ed514dda895868451dca4e  usr/share/man/man3/cap_get_file.3.gz
+7b36dee855a34ca73a820372fe3c6753  usr/share/man/man3/cap_get_proc.3.gz
+67e503dd1db4c995e4be6d08a5efcf1b  usr/share/man/man3/cap_init.3.gz
+afc1681ec3e2b0f07b62f81d1d69314c  usr/share/man/man3/libcap.3.gz

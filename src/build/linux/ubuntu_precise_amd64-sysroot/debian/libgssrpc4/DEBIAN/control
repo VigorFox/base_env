@@ -1,0 +1,25 @@
+Package: libgssrpc4
+Source: krb5
+Version: 1.10+dfsg~beta1-2ubuntu0.7
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 196
+Pre-Depends: multiarch-support
+Depends: libc6 (>= 2.15), libgssapi-krb5-2 (>= 1.10+dfsg~)
+Suggests: krb5-doc, krb5-user
+Conflicts: libkadm55
+Section: libs
+Priority: standard
+Multi-Arch: same
+Homepage: http://web.mit.edu/kerberos/
+Description: MIT Kerberos runtime libraries - GSS enabled ONCRPC
+ Kerberos is a system for authenticating users and services on a network.
+ Kerberos is a trusted third-party service.  That means that there is a
+ third party (the Kerberos server) that is trusted by all the entities on
+ the network (users and services, usually called "principals").
+ .
+ This is the MIT reference implementation of Kerberos V5.
+ .
+ This package contains an RPC library used by the Kerberos administrative
+ programs and potentially other applications.
+Original-Maintainer: Sam Hartman <hartmans@debian.org>

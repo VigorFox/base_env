@@ -1,0 +1,14 @@
+fdb0bed50980ae2a92cf0c68d852ed65  usr/bin/libpng12-config
+a0d0b36583bdb05b9fc508b1f7ee5ca1  usr/include/libpng12/png.h
+a5c73e41df10865f06ccf6296c73dd22  usr/include/libpng12/pngconf.h
+ee214396b70a7c46298d4eadbf496463  usr/lib/x86_64-linux-gnu/libpng12.a
+6548dcba9b996d47afb0091d2cd91852  usr/lib/x86_64-linux-gnu/pkgconfig/libpng12.pc
+b6e86f57862b0f1a142407106157d569  usr/share/doc/libpng12-dev/changelog.Debian.gz
+cf99d954424b98f03fa47a6bd4ea1bff  usr/share/doc/libpng12-dev/changelog.gz
+3cf0b6cc5304828a927b3cb62a46204d  usr/share/doc/libpng12-dev/copyright
+5b609d09fdb2e93dc09224c2fa6d7b06  usr/share/doc/libpng12-dev/examples/example.c.gz
+f3ec5fc6d9c26a4193a658723f8fa751  usr/share/doc/libpng12-dev/examples/pngtest.c.gz
+6debbb6e22cfb2d2db6ae33fbf7eed79  usr/share/doc/libpng12-dev/examples/pngtest.png
+a341c0e2680be61ade3047c44e1dd061  usr/share/man/man1/libpng12-config.1.gz
+5c37c82b59b97881b9910ab7de5213e3  usr/share/man/man3/libpng.3.gz
+07b6574fbcd531d2328adb9c3dadbe9f  usr/share/man/man5/png.5.gz

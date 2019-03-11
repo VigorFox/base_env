@@ -1,0 +1,14 @@
+Package: libbrlapi0.5
+Source: brltty
+Version: 4.3-1ubuntu5
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 139
+Depends: libc6 (>= 2.14)
+Section: libs
+Priority: extra
+Homepage: http://mielke.cc/brltty/
+Description: braille display access via BRLTTY - shared library
+ This package contains the shared library necessary to run programs which
+ need to communicate with a braille display.
+Original-Maintainer: Debian Accessibility Team <debian-accessibility@lists.debian.org>

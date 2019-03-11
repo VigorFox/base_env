@@ -1,0 +1,8 @@
+ab7d3ab8928c22c7aae67fad0d52caca  usr/include/X11/extensions/XKB.h
+6ca03445637df977de2bada949faf669  usr/include/X11/extensions/XKBgeom.h
+b945cb45a767d538cf6dd97f80481135  usr/include/X11/extensions/XKBproto.h
+5c42cde4a7967146aa29fafb263d3cc5  usr/include/X11/extensions/XKBsrv.h
+e7f0465c94c5b08d65e6ae644c8f5202  usr/include/X11/extensions/XKBstr.h
+07d2df1c02ea5e4df64e7931a27efb0d  usr/share/doc/x11proto-kb-dev/changelog.Debian.gz
+7fc46c11e6a67764ffa3f63976c18cfd  usr/share/doc/x11proto-kb-dev/copyright
+ce280bc1b2d99836787c062e495c5005  usr/share/pkgconfig/kbproto.pc

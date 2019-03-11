@@ -1,0 +1,5 @@
+1afb9284e73a749d9c73baed4e7b607d  usr/include/X11/extensions/Xrender.h
+0a158484a521c159c0e193f566c8dafd  usr/lib/x86_64-linux-gnu/libXrender.a
+fa4e258d7c359e645e9963012e7bf7b3  usr/lib/x86_64-linux-gnu/pkgconfig/xrender.pc
+d7208566f7229c45c77501f5246af948  usr/share/doc/libxrender-dev/copyright
+13bdc7c8a2d46afd52381381ef5dc5ad  usr/share/doc/libxrender-dev/libXrender.txt.gz

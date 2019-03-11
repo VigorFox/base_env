@@ -1,0 +1,12 @@
+Package: libudev-dev
+Source: udev
+Version: 175-7.2
+Architecture: amd64
+Maintainer: Marco d'Itri <md@linux.it>
+Installed-Size: 355
+Depends: libudev0 (= 175-7.2)
+Section: libdevel
+Priority: optional
+Description: libudev development files
+ This package contains the files needed for developing applications that
+ use libudev.

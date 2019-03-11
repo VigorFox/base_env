@@ -1,0 +1,18 @@
+Package: libpcrecpp0
+Source: pcre3
+Version: 1:8.30-5
+Architecture: amd64
+Maintainer: Mark Baker <mark@mnb.org.uk>
+Installed-Size: 142
+Pre-Depends: multiarch-support
+Depends: libc6 (>= 2.2.5), libgcc1 (>= 1:4.1.1), libpcre3 (>= 8.10), libstdc++6 (>= 4.2.1)
+Conflicts: libpcre3 (<< 6.4-1.1)
+Replaces: libpcre3 (<< 6.4-1.1)
+Section: libs
+Priority: optional
+Multi-Arch: same
+Description: Perl 5 Compatible Regular Expression Library - C++ runtime files
+ This is a C++ library of functions to support regular expressions whose syntax
+ and semantics are as close as possible to those of the Perl 5 language.
+ .
+ This package contains the C++ runtime library.

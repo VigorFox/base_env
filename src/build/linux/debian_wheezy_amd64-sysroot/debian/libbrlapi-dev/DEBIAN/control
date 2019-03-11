@@ -1,0 +1,15 @@
+Package: libbrlapi-dev
+Source: brltty
+Version: 4.4-10+deb7u1
+Architecture: amd64
+Maintainer: Debian Accessibility Team <debian-accessibility@lists.debian.org>
+Installed-Size: 486
+Depends: libbrlapi0.5 (= 4.4-10+deb7u1)
+Conflicts: libbrlapi1-dev (<< 3.8)
+Section: libdevel
+Priority: extra
+Homepage: http://mielke.cc/brltty/
+Description: Library for communication with BRLTTY - static libs and headers
+ This package contains the static library libbrlapi.a and header files
+ in /usr/include/brltty/ necessary to compile programs for BrlAPI, a
+ client-server based mechanism to remotely access a braille display.

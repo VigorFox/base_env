@@ -1,0 +1,21 @@
+Package: libfontconfig1
+Source: fontconfig
+Version: 2.8.0-3ubuntu9.2
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 425
+Pre-Depends: multiarch-support
+Depends: libc6 (>= 2.14), libexpat1 (>= 1.95.8), libfreetype6 (>= 2.2.1), fontconfig-config (= 2.8.0-3ubuntu9.2)
+Provides: libfontconfig
+Section: libs
+Priority: optional
+Multi-Arch: same
+Description: generic font configuration library - runtime
+ Fontconfig is a font configuration and customization library, which
+ does not depend on the X Window System. It is designed to locate
+ fonts within the system and select them according to requirements
+ specified by applications.
+ .
+ This package contains the runtime library needed to launch applications
+ using fontconfig.
+Original-Maintainer: Keith Packard <keithp@debian.org>

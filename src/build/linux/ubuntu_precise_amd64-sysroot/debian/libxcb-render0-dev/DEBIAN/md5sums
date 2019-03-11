@@ -1,0 +1,4 @@
+2d12988e26fd080832038a87b46c1975  usr/include/xcb/render.h
+ca9a326de16915141bbf972ea287dd4f  usr/lib/x86_64-linux-gnu/libxcb-render.a
+eb89e9b495b53d92b3ef757418db0e1d  usr/lib/x86_64-linux-gnu/pkgconfig/xcb-render.pc
+360fadb0d222af6607a189d435e3a9f3  usr/share/doc/libxcb-render0-dev/copyright

@@ -1,0 +1,12 @@
+644ec92c4e309aaf6153b48d4cff4d5c  usr/bin/libpng12-config
+21b283a5e48c99a2251b77b9891000bb  usr/include/libpng12/png.h
+f1481beb4d21e9b7cfc734e306b0ebc6  usr/include/libpng12/pngconf.h
+6a79b8b3059cda90192f3bcae6b54ec3  usr/lib/x86_64-linux-gnu/libpng12.a
+deb3fc2c3115b3a7730de0163d470e84  usr/lib/x86_64-linux-gnu/pkgconfig/libpng12.pc
+3cf0b6cc5304828a927b3cb62a46204d  usr/share/doc/libpng12-dev/copyright
+5b609d09fdb2e93dc09224c2fa6d7b06  usr/share/doc/libpng12-dev/examples/example.c.gz
+3e80ef159bc3618b9ede1fdab7d3c39b  usr/share/doc/libpng12-dev/examples/pngtest.c.gz
+59ca33e1c5df87a1feb790d24b50bf3d  usr/share/doc/libpng12-dev/examples/pngtest.png
+a341c0e2680be61ade3047c44e1dd061  usr/share/man/man1/libpng12-config.1.gz
+3022aae887882219369e7c482d6c252c  usr/share/man/man3/libpng.3.gz
+5aed7b5bd3ffaf81703d059a65a15849  usr/share/man/man5/png.5.gz

@@ -1,0 +1,23 @@
+Package: libglib2.0-0
+Source: glib2.0
+Version: 2.32.4-0ubuntu1
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 3751
+Pre-Depends: multiarch-support
+Depends: libc6 (>= 2.15), libffi6 (>= 3.0.4), libpcre3 (>= 8.10), libselinux1 (>= 1.32), zlib1g (>= 1:1.2.2)
+Recommends: libglib2.0-data, shared-mime-info
+Conflicts: bamfdaemon (<= 0.2.92-0ubuntu1), libzeitgeist-gio, wncksyncdaemon
+Breaks: gdm3 (<< 3.0.3), gnome-control-center (<< 1:3), gnome-session (<< 3.0.0-3), gvfs (<< 1.8), libgtk-3-0 (<< 3.0.12)
+Replaces: libglib2.0-dev (<< 2.23.2-2)
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: http://www.gtk.org/
+Description: GLib library of C routines
+ GLib is a library containing many useful C routines for things such
+ as trees, hashes, lists, and strings.  It is a useful general-purpose
+ C library used by projects such as GTK+, GIMP, and GNOME.
+ .
+ This package contains the shared libraries.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>

@@ -1,0 +1,24 @@
+Package: libgl1-mesa-dev
+Source: mesa
+Version: 8.0.4-0ubuntu0.7
+Architecture: amd64
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Installed-Size: 86
+Depends: mesa-common-dev (= 8.0.4-0ubuntu0.7) | mesa-common-dev-lts-quantal | mesa-common-dev-lts-raring | mesa-common-dev-lts-saucy | mesa-common-dev-lts-trusty, libgl1-mesa-glx (= 8.0.4-0ubuntu0.7) | libgl1-mesa-glx-lts-quantal | libgl1-mesa-glx-lts-raring | libgl1-mesa-glx-lts-saucy | libgl1-mesa-glx-lts-trusty, libxext-dev
+Conflicts: libgl-dev, libgl1-mesa-dri-dev
+Replaces: libgl-dev, libgl1-mesa-dri-dev
+Provides: libgl-dev, libgl1-mesa-dri-dev
+Section: libdevel
+Priority: optional
+Homepage: http://mesa3d.sourceforge.net/
+Description: free implementation of the OpenGL API -- GLX development files
+ This version of Mesa provides GLX and DRI capabilities: it is capable of
+ both direct and indirect rendering.  For direct rendering, it can use DRI
+ modules from the libgl1-mesa-dri package to accelerate drawing.
+ .
+ This package includes headers and static libraries for compiling
+ programs with Mesa.
+ .
+ For a complete description of Mesa, please look at the libgl1-mesa-swx11
+ package.
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>

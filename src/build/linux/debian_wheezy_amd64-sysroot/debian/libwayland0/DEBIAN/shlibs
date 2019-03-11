@@ -1,0 +1,2 @@
+libwayland-client 0 libwayland0 (= 0.85.0-2)
+libwayland-server 0 libwayland0 (= 0.85.0-2)

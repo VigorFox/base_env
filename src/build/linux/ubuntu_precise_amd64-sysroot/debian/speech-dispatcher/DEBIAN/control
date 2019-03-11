@@ -1,0 +1,25 @@
+Package: speech-dispatcher
+Version: 0.7.1-6ubuntu3
+Architecture: amd64
+Maintainer: Ubuntu Accessibility Developers <ubuntu-accessibility@lists.ubuntu.com>
+Installed-Size: 1128
+Depends: adduser, lsb-base (>= 3.0-10), dpkg (>= 1.15.4) | install-info, libasound2 (>> 1.0.24.1), libc6 (>= 2.4), libdotconf1.0, libespeak1 (>= 1.30), libglib2.0-0 (>= 2.24.0), libpulse0 (>= 1:0.99.1), libspeechd2 (>= 0.7.1)
+Recommends: pulseaudio
+Suggests: speech-dispatcher-festival (= 0.7.1-6ubuntu3), speech-dispatcher-doc-cs (= 0.7.1-6ubuntu3), libttspico-utils, speech-dispatcher-flite (= 0.7.1-6ubuntu3)
+Conflicts: libspeechd1 (<< 0.5)
+Section: sound
+Priority: optional
+Homepage: http://devel.freebsoft.org/speechd
+Description: Common interface to speech synthesizers
+ Speech Dispatcher provides a device independent layer for speech synthesis.
+ It supports various software and hardware speech synthesizers as
+ backends and provides a generic layer for synthesizing speech and
+ playing back PCM data via those different backends to applications.
+ .
+ Various high level concepts like enqueueing vs. interrupting speech and
+ application specific user configurations are implemented in a device
+ independent way, therefore freeing the application programmer from
+ having to yet again reinvent the wheel.
+ .
+ This package contains Speech Dispatcher itself.
+Original-Maintainer: Boris Dušek <dusek@brailcom.org>
