@@ -2,3 +2,4 @@
 /src/build/linux/ubuntu_precise_amd64-sysroot
 .gclient
 /src/out
+depot_tools
