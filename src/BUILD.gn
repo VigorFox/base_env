@@ -89,7 +89,7 @@ group("both_gn_and_gyp") {
     "//base:base",
     "//base:i18n",
     "//crypto:crypto",
-    "//lua:lua",
+    "//third_party/lua:lua",
   ]
 
   deps += root_extra_deps
