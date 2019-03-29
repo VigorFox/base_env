@@ -87,8 +87,8 @@ group("both_gn_and_gyp") {
   testonly = true
   deps = [
     "//base:base",
-    "//net:net",
-    #"//net/interfaces:interfaces",
+    "//base:i18n",
+    "//crypto:crypto",
   ]
 
   deps += root_extra_deps
