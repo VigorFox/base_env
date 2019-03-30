@@ -90,6 +90,7 @@ group("both_gn_and_gyp") {
     "//base:i18n",
     "//crypto:crypto",
     "//third_party/lua:lua",
+    "//third_party/mariadb_connector:mariadb_connector",
   ]
 
   deps += root_extra_deps

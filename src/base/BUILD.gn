@@ -1963,6 +1963,18 @@ test("base_unittests") {
     # TODO(krasin): remove CFI_CAST_CHECK, see https://crbug.com/626794.
     defines += [ "CFI_CAST_CHECK" ]
   }
+
+  cflags = [
+    "-Wno-self-assign-overloaded",
+    "-Wno-unused-variable",
+    "-Wno-enum-compare",
+  ]
+
+  cflags_cc = [
+    "-Wno-self-assign-overloaded",
+    "-Wno-unused-variable",
+    "-Wno-enum-compare",
+  ]
 }
 
 action("build_date") {

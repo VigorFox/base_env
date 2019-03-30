@@ -67,6 +67,7 @@
 #endif
 
 #if defined(THREAD) && !defined(_WIN32)
+// #if !defined(_WIN32)
 #ifndef _POSIX_PTHREAD_SEMANTICS
 #define _POSIX_PTHREAD_SEMANTICS /* We want posix threads */
 #endif

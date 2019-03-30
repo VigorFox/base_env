@@ -1,0 +1,127 @@
+# Auth by Vulpes
+
+import("//build/buildflag_header.gni")
+import("//build/config/allocator.gni")
+
+component("mariadb_connector") {
+  deps = [
+    "//third_party/zlib"
+  ]
+  include_dirs = [ 
+    "//third_party/mariadb_connector/include" 
+  ]
+
+  defines = [
+    "HAVE_COMPRESS",
+    "LIBMARIADB",
+    "THREAD",
+  ]
+
+  sources = [
+    # "plugins/io/remote_io.c",
+    # "plugins/auth/sha256_pw.c",
+    "plugins/auth/old_password.c",
+    # "plugins/auth/gssapi_errmsg.h",
+    # "plugins/auth/mariadb_cleartext.c",
+    "plugins/auth/my_auth.c",
+    # "plugins/auth/gssapi_client.c",
+    # "plugins/auth/dialog.c",
+    # "plugins/auth/caching_sha2_pw.c",
+    # "plugins/auth/auth_gssapi_client.c",
+    "plugins/auth/common.h",
+    "plugins/auth/server_plugin.h",
+    # "plugins/auth/gssapi_errmsg.c",
+    # "plugins/trace/trace_example.c",
+    # "plugins/pvio/pvio_npipe.c",
+    # "plugins/pvio/pvio_shmem.c",
+    "plugins/pvio/pvio_socket.c",
+    # "plugins/connection/replication.c",
+    # "plugins/connection/aurora.c",
+    "include/errmsg.h",
+    "include/ma_hash.h",
+    "include/ma_crypt.h",
+    "include/ma_pvio.h",
+    "include/mariadb_ctype.h",
+    "include/mysql/plugin_auth.h",
+    "include/mysql/plugin_auth_common.h",
+    "include/mysql/client_plugin.h",
+    "include/mariadb_stmt.h",
+    "include/ma_global.h",
+    "include/mariadb_dyncol.h",
+    "include/mariadb/ma_io.h",
+    "include/ma_list.h",
+    "include/ma_tls.h",
+    "include/ma_server_error.h",
+    "include/ma_context.h",
+    "include/mysqld_error.h",
+    "include/mariadb_com.h",
+    "include/ma_pthread.h",
+    "include/ma_common.h",
+    "include/ma_string.h",
+    "include/ma_sys.h",
+    "include/mysql.h",
+    "include/ma_sha1.h",
+    "include/mariadb_async.h",
+    "libmariadb/ma_time.c",
+    "libmariadb/mariadb_lib.c",
+    "libmariadb/ma_pvio.c",
+    "libmariadb/ma_alloc.c",
+    "libmariadb/ma_list.c",
+    # "libmariadb/secure/gnutls.c",
+    # "libmariadb/secure/openssl.c",
+    # "libmariadb/secure/win_crypt.c",
+    # "libmariadb/secure/schannel.c",
+    # "libmariadb/secure/ma_schannel.h",
+    # "libmariadb/secure/gnutls_crypt.c",
+    # "libmariadb/secure/openssl_crypt.c",
+    # "libmariadb/secure/ma_schannel.c",
+    "libmariadb/mariadb_dyncol.c",
+    "libmariadb/ma_password.c",
+    "libmariadb/ma_context.c",
+    "libmariadb/ma_charset.c",
+    "libmariadb/ma_io.c",
+    "libmariadb/get_password.c",
+    "libmariadb/ma_stmt_codec.c",
+    "libmariadb/ma_loaddata.c",
+    "libmariadb/mariadb_charset.c",
+    # "libmariadb/bmove_upp.c",
+    "libmariadb/ma_string.c",
+    "libmariadb/ma_compress.c",
+    "libmariadb/ma_ll2str.c",
+    "libmariadb/ma_net.c",
+    "libmariadb/ma_hash.c",
+    "libmariadb/ma_tls.c",
+    "libmariadb/ma_default.c",
+    "libmariadb/mariadb_stmt.c",
+    "libmariadb/mariadb_async.c",
+    "libmariadb/ma_dtoa.c",
+    "libmariadb/ma_array.c",
+    "libmariadb/ma_init.c",
+    "libmariadb/ma_errmsg.c",
+    "libmariadb/ma_sha1.c",
+  ]
+
+  if (is_win) {
+    sources += [
+      "win-iconv/win_iconv.c",
+      "win-iconv/iconv.h",
+      "win-iconv/mlang.h",
+      # "plugins/auth/sspi_client.c",
+      # "plugins/auth/sspi_errmsg.c",
+      # "plugins/auth/sspi_common.h",
+    ]
+  }
+
+  if (is_linux) {
+    include_dirs += [ 
+      "//third_party/mariadb_connector/include/linux" 
+    ]
+
+    sources += [
+      "include/linux/config.h",
+      "include/linux/ma_config.h",
+      "include/linux/mariadb_version.h",
+      "include/linux/ma_client_plugin.c",
+    ]
+  }
+}

@@ -206,5 +206,11 @@ static_library("libxml") {
     defines = [ "_REENTRANT" ]
   }
 
+  cflags = [
+    # "-Wno-self-assign-overloaded",
+    # "-Wno-unused-variable",
+    "-Wno-enum-compare",
+  ]
+
   include_dirs = [ "$os_include" ]
 }

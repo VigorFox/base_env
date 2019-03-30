@@ -91,6 +91,8 @@ void XmlUnitTestResultPrinter::WriteTestPartResult(
     case testing::TestPartResult::kFatalFailure:
       type = "fatal_failure";
       break;
+    case testing::TestPartResult::kSkip:
+      break;
   }
   std::string summary = test_part_result.summary();
   std::string summary_encoded;
