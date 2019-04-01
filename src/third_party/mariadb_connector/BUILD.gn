@@ -103,7 +103,6 @@ component("mariadb_connector") {
   ]
 
   if (is_win) {
-
     defines += [
       "HAVE_DLOPEN",
       "_CRT_SECURE_NO_WARNINGS",
@@ -123,12 +122,17 @@ component("mariadb_connector") {
       "gen/win/include/config.h",
       "gen/win/include/ma_config.h",
       "gen/win/include/mariadb_version.h",
+      "gen/mariadbclient.def",
     ]
 
     cflags = [
       "-Wno-incompatible-pointer-types",
       # "-Wno-implicit-function-declaration",
       "-Wno-sign-compare",
+    ]
+
+    ldflags = [
+      "/DEF:mariadbclient.def",
     ]
   }
 
