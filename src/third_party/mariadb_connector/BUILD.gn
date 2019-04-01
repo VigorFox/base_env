@@ -99,9 +99,20 @@ component("mariadb_connector") {
     "libmariadb/ma_init.c",
     "libmariadb/ma_errmsg.c",
     "libmariadb/ma_sha1.c",
+    "gen/ma_client_plugin.c",
   ]
 
   if (is_win) {
+
+    defines += [
+      "HAVE_DLOPEN",
+      "_CRT_SECURE_NO_WARNINGS",
+    ]
+
+    include_dirs += [ 
+      "//third_party/mariadb_connector/gen/win/include",
+    ]
+
     sources += [
       "win-iconv/win_iconv.c",
       "win-iconv/iconv.h",
@@ -109,19 +120,27 @@ component("mariadb_connector") {
       # "plugins/auth/sspi_client.c",
       # "plugins/auth/sspi_errmsg.c",
       # "plugins/auth/sspi_common.h",
+      "gen/win/include/config.h",
+      "gen/win/include/ma_config.h",
+      "gen/win/include/mariadb_version.h",
+    ]
+
+    cflags = [
+      "-Wno-incompatible-pointer-types",
+      # "-Wno-implicit-function-declaration",
+      "-Wno-sign-compare",
     ]
   }
 
   if (is_linux) {
     include_dirs += [ 
-      "//third_party/mariadb_connector/include/linux" 
+      "//third_party/mariadb_connector/gen/linux/include",
     ]
 
     sources += [
-      "include/linux/config.h",
-      "include/linux/ma_config.h",
-      "include/linux/mariadb_version.h",
-      "include/linux/ma_client_plugin.c",
+      "gen/linux/include/config.h",
+      "gen/linux/include/ma_config.h",
+      "gen/linux/include/mariadb_version.h",
     ]
   }
 }

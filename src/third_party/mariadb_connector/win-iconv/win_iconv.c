@@ -1845,7 +1845,7 @@ iso2022jp_wctomb(csconv_t *cv, ushort *wbuf, int wbufsize, uchar *buf, int bufsi
     else if (tmpsize < esc_len + len)
         return seterror(EILSEQ);
 
-    if (cv->mode == ISO2022_MODE(cs, shift))
+    if ((int)cv->mode == ISO2022_MODE(cs, shift))
     {
         /* remove escape sequence */
         if (esc_len != 0)
