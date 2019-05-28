@@ -69,6 +69,28 @@ source_set("lua_sources") {
   ]
 }
 
+loadable_module("lua_protobuf") {
+  deps = [
+    ":lua_sources"
+  ]
+
+  include_dirs = [ 
+    "//third_party/lua" 
+  ]
+
+  sources = [
+    "pb.c",
+    "pb.h",
+  ]
+
+  cflags = [
+    "/O2",
+    "/LD",
+    "-DLUA_BUILD_AS_DLL",
+    "-Wno-unused-command-line-argument",
+  ]
+}
+
 component("lua") {
   deps = [
     ":lua_sources"

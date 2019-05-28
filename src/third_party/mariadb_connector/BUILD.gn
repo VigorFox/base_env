@@ -1,4 +1,4 @@
-# Auth by Vulpes
+# Auth by Vulpes 2019-04-01
 
 import("//build/buildflag_header.gni")
 import("//build/config/allocator.gni")
